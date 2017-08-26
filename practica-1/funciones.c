@@ -24,11 +24,12 @@ int ordenamiento_burbuja_mejorado(int **numeros, int n) {
     if(numeros == NULL) return error(ARREGLO_NULO, "ordenamiento_burbuja_mejorado");
 
     short cambio = 1;
-    int i, j, temporal;
+    int i, j;
+    int temporal = 0;
 
     for (i=1; i<n && cambio; i++) {
         cambio = 0;
-        for (j=0; j<=n-i; j++) {
+        for (j=0; j<n-i; j++) {
             if (numeros[0][j+1] < numeros[0][j]) {
                 temporal = numeros[0][j];
                 numeros[0][j] = numeros[0][j+1];

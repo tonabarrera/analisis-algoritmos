@@ -33,5 +33,6 @@ int guardar_inorden(struct Arbol *arbol, int **numeros, int n) {
 
     n = guardar_inorden(arbol->izquierda, numeros, n);
     numeros[0][n] = arbol->valor;
-    guardar_inorden(arbol->derecha, numeros, n);
+    n = guardar_inorden(arbol->derecha, numeros, n);
+    return n;
 }
