@@ -20,6 +20,26 @@ int ordenamiento_burbuja(int ** numeros, int n){
     return 0;
 }
 
+int ordenamiento_burbuja_mejorado(int **numeros, int n) {
+    if(numeros == NULL) return error(ARREGLO_NULO, "ordenamiento_burbuja_mejorado");
+
+    short cambio = 1;
+    int i, j, temporal;
+
+    for (i=1; i<n && cambio; i++) {
+        cambio = 0;
+        for (j=0; j<=n-i; j++) {
+            if (numeros[0][j+1] < numeros[0][j]) {
+                temporal = numeros[0][j];
+                numeros[0][j] = numeros[0][j+1];
+                numeros[0][j+1] = temporal;
+                cambio = 1;
+            }
+        }
+    }
+    return 0;
+}
+
 
 int ordenamiento_insercion(int ** numeros, int n){
     if(numeros == NULL){return error(ARREGLO_NULO, "ordenamiento_insercion");}
@@ -38,6 +58,26 @@ int ordenamiento_insercion(int ** numeros, int n){
         numeros[0][j+1] = temporal;
     }
 
+    return 0;
+}
+
+int ordenamiento_seleccion(int **numeros, int n) {
+    if(numeros == NULL) return error(ARREGLO_NULO, "ordenamiento_seleccion");
+
+    int k, i, p, temporal;
+    for (k=0; k<n-1; k++) {
+        p=k;
+        for (i=k+1; i<n; i++) {
+            if (numeros[0][i]<numeros[0][p]) {
+                p=i;
+            }
+        }
+        if (p!=k) {
+            temporal = numeros[0][p];
+            numeros[0][p] = numeros[0][k];
+            numeros[0][k] = temporal;
+        }
+    }
     return 0;
 }
 
@@ -62,6 +102,19 @@ int ordenamiento_shell(int ** numeros, int n){
         }
         k /= 2;
     }
+
+    return 0;
+}
+
+int ordenamiento_arbol(int **numeros, int n) {
+    if(numeros == NULL) return error(ARREGLO_NULO, "ordenamiento_arbol");
+
+    int i;
+    struct Arbol *arbol = NULL;
+    for (i = 0; i<n; i++)
+        insertar(&arbol, numeros[0][i]);
+
+    guardar_inorden(arbol, numeros, -1);
 
     return 0;
 }

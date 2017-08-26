@@ -28,11 +28,10 @@ int crear_arbol(struct Arbol **nuevo, int valor) {
     return 1;
 }
 
-int guardar_inorden(struct Arbol *arbol, int numeros[], int n) {
-    if (arbol == NULL) {return n+1;}
+int guardar_inorden(struct Arbol *arbol, int **numeros, int n) {
+    if (arbol == NULL) return n+1;
 
     n = guardar_inorden(arbol->izquierda, numeros, n);
-    //printf("%d.- %d\n", n, arbol->valor);
-    numeros[n] = arbol->valor;
+    numeros[0][n] = arbol->valor;
     guardar_inorden(arbol->derecha, numeros, n);
 }
