@@ -1,7 +1,7 @@
 #!/bin/bash
 # -*- ENCODING: UTF-8 -*-
 
-gcc bubbleSort_simple.c funciones.c tiempo.c
+gcc ejecucion.c funciones.c tiempo.c
 
 ./a.out 100 < numeros10millones.txt >> salidaBubbleSort_simple.txt
 ./a.out 1000 < numeros10millones.txt >> salidaBubbleSort_simple.txt
