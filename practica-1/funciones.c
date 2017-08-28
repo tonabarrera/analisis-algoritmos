@@ -121,18 +121,15 @@ int ordenamiento_arbol(int **numeros, int n) {
 }
 
 
-int llenar_arreglo(FILE * archivo, int ** numeros, int n, char * nombre){ //saca n elementos del archivo y los pone en el arreglo
-    if(archivo == NULL){return error(ARCHIVO_NULO, nombre);}
+int llenar_arreglo(int ** numeros, int n){ //saca n elementos del archivo y los pone en el arreglo
     if(numeros == NULL){return error(ARREGLO_NULO, "llenar_arreglo");}
 
     int i = 0;
-    char auxiliar[33];
+    char * auxiliar = (char *)malloc(33 * sizeof(char));
 
     for(i = 0; i < n; i++){ //llenando el arreglo de numeros
-        if(fgets(auxiliar, 33, archivo) != NULL){
-            *(*(numeros) + i) = atoi(auxiliar);
-        }
-        else{return error(LECTURA_FALLIDA, nombre);}
+        scanf("%s", auxiliar);
+        *(*(numeros) + i) = atoi(auxiliar);
     }
 
     return 0;
