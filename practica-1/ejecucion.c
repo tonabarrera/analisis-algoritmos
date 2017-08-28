@@ -72,9 +72,7 @@ int main (int argc, char* argv[])
 	//Algoritmo
 	//******************************************************************
 	//******************************************************************
-    llenar_arreglo(archivo, &numeros, n, args[1]);
     ordenamiento_burbuja(&numeros, n);
-    imprimir_arreglo(numeros, n);
 	//******************************************************************
 	//Evaluar los tiempos de ejecución
 	//******************************************************************
