@@ -18,8 +18,8 @@
     int ordenamiento_insercion(int **, int);
     int ordenamiento_seleccion(int **, int);
     int ordenamiento_shell(int **, int);
+    int llenar_arreglo(int **, int);
     int ordenamiento_arbol(int **, int);
-    int llenar_arreglo(FILE *, int **, int, char *);
     int error(int, char*);
     int imprimir_arreglo(int *, int);
 
