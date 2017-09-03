@@ -29,7 +29,6 @@
 //*****************************************************************#include <stdio.h>
 void uswtime(double *usertime, double *systime, double *walltime)
 {
-	double mega = 1.0e-6;
 	struct rusage buffer;
 	struct timeval tp;
 	struct timezone tzp;

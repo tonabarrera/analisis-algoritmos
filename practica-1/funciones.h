@@ -11,6 +11,14 @@
     #define ARREGLO_NULO 1
     #define ARCHIVO_NULO 2
     #define LECTURA_FALLIDA 3
+    
+    // Nombre del algoritmo
+    #define BURBUJA 1
+    #define BURBUJA_CHIDO 2
+    #define SELECCION 3
+    #define INSERCION 4
+    #define SHELL 5
+    #define ARBOL 6
 
     //la definicion de las funciones del programa
     int ordenamiento_burbuja(int **, int);

@@ -42,14 +42,14 @@ int main (int argc, char* argv[])
 	//******************************************************************
 	double utime0, stime0, wtime0,utime1, stime1, wtime1; //Variables para medición de tiempos
 	int n; 	//n determina el tamaño del algorito dado por argumento al ejecutar
-	int i; //Variables para loops
+    int algoritmo = 1;
 
 	//******************************************************************
 	//Recepción y decodificación de argumentos
 	//******************************************************************
 
 	//Si no se introducen exactamente 2 argumentos (Cadena de ejecución y cadena=n)
-	if (argc!=2)
+	if (argc!=3)
 	{
 		printf("\nIndique el tamanio del algoritmo - Ejemplo: [user@equipo]$ %s 100\n",argv[0]);
 		exit(1);
@@ -58,34 +58,85 @@ int main (int argc, char* argv[])
 	else
 	{
 		n=atoi(argv[1]);
+        algoritmo = atoi(argv[2]);
 	}
 
     int * numeros = (int *)malloc(n*sizeof(int));
 
-<<<<<<< HEAD
-    llenar_arreglo(archivo, &numeros, n, args[1]);
-    ordenamiento_arbol(&numeros, n);
-    imprimir_arreglo(numeros, n);
-=======
     llenar_arreglo(&numeros, n);
 	//******************************************************************
 	//Iniciar el conteo del tiempo para las evaluaciones de rendimiento
 	//******************************************************************
-	uswtime(&utime0, &stime0, &wtime0);
 	//******************************************************************
 	//******************************************************************
 	//Algoritmo
 	//******************************************************************
 	//******************************************************************
-    ordenamiento_burbuja(&numeros, n);
+    // Lo ponemos aqui para que no cuente el break
+    switch (algoritmo) {
+        case BURBUJA:
+            uswtime(&utime0, &stime0, &wtime0);
+            ordenamiento_burbuja(&numeros, n);
+            uswtime(&utime1, &stime1, &wtime1);
+            break;
+        case BURBUJA_CHIDO:
+            uswtime(&utime0, &stime0, &wtime0);
+            ordenamiento_burbuja_mejorado(&numeros, n);
+            uswtime(&utime1, &stime1, &wtime1);
+            break;
+        case SELECCION:
+            uswtime(&utime0, &stime0, &wtime0);
+            ordenamiento_seleccion(&numeros, n);
+            uswtime(&utime1, &stime1, &wtime1);
+            break;
+        case INSERCION:
+            uswtime(&utime0, &stime0, &wtime0);
+            ordenamiento_insercion(&numeros, n);
+            uswtime(&utime1, &stime1, &wtime1);
+            break;
+        case SHELL:
+            uswtime(&utime0, &stime0, &wtime0);
+            ordenamiento_shell(&numeros, n);
+            uswtime(&utime1, &stime1, &wtime1);
+            break;
+        case ARBOL:
+            uswtime(&utime0, &stime0, &wtime0);
+            ordenamiento_arbol(&numeros, n);
+            uswtime(&utime1, &stime1, &wtime1);
+            break;
+        default:
+            printf("ERROR");
+            exit(1);
+            break;
+    }
 	//******************************************************************
 	//Evaluar los tiempos de ejecución
 	//******************************************************************
-	uswtime(&utime1, &stime1, &wtime1);
->>>>>>> 096eb294cf015db7aa1d8bd8e7e21faeaf98e507
 
     printf("%s\n", "========================================================================");
-    printf("%s\n", "BUBBLE SORT SIMPLE");
+    switch (algoritmo) {
+        case BURBUJA:
+            printf("%s\n", "BURBUJA SIMPLE");
+            break;
+        case BURBUJA_CHIDO:
+            printf("%s\n", "BURBUJA MEJORADO");
+            break;
+        case SELECCION:
+            printf("%s\n", "SELECCION");
+            break;
+        case INSERCION:
+            printf("%s\n", "INSERCION");
+            break;
+        case SHELL:
+            printf("%s\n", "SHELL");
+            break;
+        case ARBOL:
+            printf("%s\n", "ARBOL");
+            break;
+        default:
+            printf("ERROR");
+            break;
+    }
     printf("%s %d\n", "n = ", n);
 
 
@@ -98,12 +149,14 @@ int main (int argc, char* argv[])
 	printf("\n");
 
 	//Mostrar los tiempos en formato exponecial
+    /*
 	printf("\n");
 	printf("real (Tiempo total)  %.10e s\n",  wtime1 - wtime0);
 	printf("user (Tiempo de procesamiento en CPU) %.10e s\n",  utime1 - utime0);
 	printf("sys (Tiempo en acciónes de E/S)  %.10e s\n",  stime1 - stime0);
 	printf("CPU/Wall   %.10f %% \n",100.0 * (utime1 - utime0 + stime1 - stime0) / (wtime1 - wtime0));
 	printf("\n");
+    */
 	//******************************************************************
 	//Terminar programa normalmente
     printf("%s\n", "========================================================================");
