@@ -27,7 +27,7 @@ int crear_arbol(struct Arbol **nuevo, int valor) {
     *nuevo = auxiliar;
     return 1;
 }
-
+/*
 int guardar_inorden(struct Arbol *arbol, int **numeros, int n) {
     if (arbol == NULL) return n+1;
 
@@ -35,4 +35,18 @@ int guardar_inorden(struct Arbol *arbol, int **numeros, int n) {
     numeros[0][n] = arbol->valor;
     n = guardar_inorden(arbol->derecha, numeros, n);
     return n;
+}
+*/
+
+int guardar_inorden(struct Arbol *arbol, int **numeros) {
+    static int contador_arbol = -1;
+    if (arbol == NULL){
+        contador_arbol = contador_arbol + 1;
+        return 0;
+    }
+
+    guardar_inorden(arbol->izquierda, numeros);
+    numeros[0][contador_arbol] = arbol->valor;
+    guardar_inorden(arbol->derecha, numeros);
+    return 0;
 }

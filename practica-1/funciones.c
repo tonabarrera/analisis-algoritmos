@@ -115,7 +115,8 @@ int ordenamiento_arbol(int **numeros, int n) {
     for (i = 0; i<n; i++)
         insertar(&arbol, numeros[0][i]);
 
-    guardar_inorden(arbol, numeros, -1);
+    //guardar_inorden(arbol, numeros, -1);
+    guardar_inorden(arbol, numeros);
 
     return 0;
 }

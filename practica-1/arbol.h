@@ -12,6 +12,7 @@ struct Arbol {
 
 int insertar(struct Arbol **, int);
 int crear_arbol(struct Arbol **, int);
-int guardar_inorden(struct Arbol *, int **, int);
+//int guardar_inorden(struct Arbol *, int **, int);
+int guardar_inorden(struct Arbol *, int **);
 
 #endif
