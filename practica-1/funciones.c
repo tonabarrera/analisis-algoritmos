@@ -1,3 +1,10 @@
+/*****************************************************************
+Titulo: funciones.c
+Descripcion: Contiene la definición de las funciones declaradas en el archivo funciones.h.
+Fecha: 11-sep-17
+Versión: 2.0
+Autor: Los chilakillers
+*****************************************************************/
 #include "funciones.h"
 
 int ordenamiento_burbuja(int ** numeros, int n){
@@ -20,6 +27,13 @@ int ordenamiento_burbuja(int ** numeros, int n){
     return 0;
 }
 
+// Recibe un arreglo de numeros y un 
+// valor que indica cuantos elementos hay en el arreglo
+// Ordena el arreglo de numeros utilizando 
+// el ordenamiento burbuja mejorado cuya principal
+// caracteristica es el uso de una bandera indicando si ocurre algun intercambio
+// Devuelve 0 si se realizo correctamente 
+// y si ocurre un error termina la ejecucion e imprime el error
 int ordenamiento_burbuja_mejorado(int **numeros, int n) {
     if(numeros == NULL) return error(ARREGLO_NULO, "ordenamiento_burbuja_mejorado");
 
@@ -62,6 +76,13 @@ int ordenamiento_insercion(int ** numeros, int n){
     return 0;
 }
 
+// Recibe un arreglo de numeros y un valor 
+// que indica cuantos elementos hay en el arreglo
+// Ordena el arreglo de numeros utilizando el 
+// ordenamiento de arbol por seleccion cuya principal
+// caracteristica es buscar el numero más pequeño y ponerlo en su lugar correcto
+// Devuelve 0 si se realizo correctamente y si 
+// ocurre un error termina la ejecucion e imprime el error
 int ordenamiento_seleccion(int **numeros, int n) {
     if(numeros == NULL) return error(ARREGLO_NULO, "ordenamiento_seleccion");
 
@@ -107,6 +128,11 @@ int ordenamiento_shell(int ** numeros, int n){
     return 0;
 }
 
+// Recibe un arreglo de numeros y un valor que indica cuantos elementos hay en el arreglo
+// Ordena el arreglo de numeros utilizando el ordenamiento de arbol mejorado cuya principal
+// caracteristica es utilizar un arbol binario de busqueda y despues recorrerlo en inorden
+// Devuelve 0 si se realizo correctamente 
+// y si ocurre un error termina la ejecucion e imprime el error
 int ordenamiento_arbol(int **numeros, int n) {
     if(numeros == NULL) return error(ARREGLO_NULO, "ordenamiento_arbol");
 
@@ -115,7 +141,6 @@ int ordenamiento_arbol(int **numeros, int n) {
     for (i = 0; i<n; i++)
         insertar(&arbol, numeros[0][i]);
 
-    //guardar_inorden(arbol, numeros, -1);
     guardar_inorden(arbol, numeros);
 
     return 0;
