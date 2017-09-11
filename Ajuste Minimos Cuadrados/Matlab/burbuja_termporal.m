@@ -1,0 +1,42 @@
+x = [100 1000 5000 10000 50000 100000 200000 400000 600000 800000 1000000];
+
+% TIEMPO REAL
+real = [0.0000939369 0.0084688663 0.2341020107 0.8947482109 24.2576978207];
+real(end+1) = 97.6079449654;
+real(end+1) = 391.7894010544;
+real(end+1) = 1577.0236639977;
+real(end+1) = 3560.8748540878;
+real(end+1) = 6336.6857509613;
+real(end+1) = 9893.6090807915;
+
+% TIEMPO CPU
+CPU = [0.0000000000 0.0080000000 0.2120000000 0.8920000000 24.2200000000];
+CPU(end+1) = 97.5040000000;
+CPU(end+1) = 391.5800000000;
+CPU(end+1) = 1575.8520000000;
+CPU(end+1) = 3558.8520000000;
+CPU(end+1) = 6332.2640000000;
+CPU(end+1) = 9888.5720000000;
+
+% TIEMPO E/S
+ES = [0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000];
+ES(end+1) = 0.0520000000;
+ES(end+1) = 0.1040000000;
+ES(end+1) = 1.0800000000;
+ES(end+1) = 1.6080000000;
+ES(end+1) = 3.7960000000;
+ES(end+1) = 3.4840000000;
+
+%%SE REALIZA LA FIGURA CORRESPONDIENTE
+figure(1);
+grid;
+plot(x, real, '--', 'LineWidth', 3);
+hold on
+plot(x, CPU, 'o', 'LineWidth', 3);
+plot(x, ES, '-', 'LineWidth', 3);
+hold off
+grid;
+ylabel('TIEMPO(SEG)');
+xlabel('TAMAÑO DEL PROBLEMA(N)');
+legend('Tiempo real', 'Tiempo de CPU', 'Tiempo de E/S');
+title('Tiempos del ordenamiento burbuja');
