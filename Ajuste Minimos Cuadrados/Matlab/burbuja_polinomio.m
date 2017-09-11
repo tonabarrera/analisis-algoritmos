@@ -47,6 +47,7 @@ plot(xi, z3, '--', 'LineWidth', 2);
 plot(xi, z4, '--', 'LineWidth', 2);
 plot(xi, z8, '--', 'LineWidth', 2);
 hold off
+grid;
 ylabel('F(Y)');
 xlabel('X');
 legend('Tiempos', 'Grado 1', 'Grado 2', 'Grado 3', 'Grado 4', 'Grado 8');

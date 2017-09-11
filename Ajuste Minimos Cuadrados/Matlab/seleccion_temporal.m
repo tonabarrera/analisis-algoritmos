@@ -34,10 +34,10 @@ ES(end+1) = 4.9560000000;
 %%SE REALIZA LA FIGURA CORRESPONDIENTE
 figure(1);
 grid;
-plot(x, real, '--', 'LineWidth', 3);
+plot(x, real, '--', 'LineWidth', 2);
 hold on
-plot(x, CPU, 'o', 'LineWidth', 3);
-plot(x, ES, '-', 'LineWidth', 3);
+plot(x, CPU, 'o', 'LineWidth', 2);
+plot(x, ES, '-', 'LineWidth', 2);
 hold off
 grid;
 ylabel('TIEMPO(SEG)');

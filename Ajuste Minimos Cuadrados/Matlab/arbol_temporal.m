@@ -60,11 +60,12 @@ ES(end+1) = 0.2800000000;
 %%SE REALIZA LA FIGURA CORRESPONDIENTE
 figure(1);
 grid;
-plot(x, real, 'o');
+plot(x, real, 'o', 'LineWidth', 2);
 hold on
-plot(x, CPU, '.');
-plot(x, ES, '-');
+plot(x, CPU, '--', 'LineWidth', 2);
+plot(x, ES, '-', 'LineWidth', 2);
 hold off
+grid;
 ylabel('TIEMPO(SEG)');
 xlabel('TAMAÑO DEL PROBLEMA(N)');
 legend('Tiempo real', 'Tiempo de CPU', 'Tiempo de E/S');
