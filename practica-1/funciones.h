@@ -1,3 +1,10 @@
+/*****************************************************************
+Titulo: funciones.h
+Descripcion: contiene la declaración de todos nuestros algoritmos de ordenamiento.
+Fecha: 11-sep-17
+Versión: 2.0
+Autor: Los chilakillers
+*****************************************************************/
 #ifndef __FUNCIONES_H__
 #define __FUNCIONES_H__
 

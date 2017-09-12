@@ -1,0 +1,46 @@
+x = [100 1000 5000 10000 50000 100000 200000 400000 600000 800000 1000000];
+x(end+1) = 2000000;
+
+% TIEMPO REAL
+real = [0.0000500679 0.0035521984 0.0676710606 0.2772631645 6.6501269341];
+real(end+1) = 26.6595389843;
+real(end+1) = 106.5870330334;
+real(end+1) = 431.8155429363;
+real(end+1) = 980.6647109985;
+real(end+1) = 1751.5630450249;
+real(end+1) = 2743.7960259914;
+real(end+1) = 11008.6946151257;
+
+% TIEMPO CPU
+CPU = [0.0000000000 0.0040000000 0.0680000000 0.2680000000 6.6440000000];
+CPU(end+1) = 26.6480000000;
+CPU(end+1) = 106.5640000000;
+CPU(end+1) = 431.4880000000;
+CPU(end+1) = 979.9800000000;
+CPU(end+1) = 1749.8560000000;
+CPU(end+1) = 2741.6120000000;
+CPU(end+1) = 11002.2280000000;
+
+% TIEMPO E/S
+ES = [0.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000];
+ES(end+1) = 0.0000000000;
+ES(end+1) = 0.0040000000;
+ES(end+1) = 0.1000000000;
+ES(end+1) = 0.5320000000;
+ES(end+1) = 0.7760000000;
+ES(end+1) = 1.8520000000;
+ES(end+1) = 4.9560000000;
+
+%%SE REALIZA LA FIGURA CORRESPONDIENTE
+figure(1);
+grid;
+plot(x, real, '--', 'LineWidth', 2);
+hold on
+plot(x, CPU, 'o', 'LineWidth', 2);
+plot(x, ES, '-', 'LineWidth', 2);
+hold off
+grid;
+ylabel('TIEMPO(SEG)');
+xlabel('TAMAÑO DEL PROBLEMA(N)');
+legend('Tiempo real', 'Tiempo de CPU', 'Tiempo de E/S');
+title('Tiempos del ordenamiento selección');
