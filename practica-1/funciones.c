@@ -7,6 +7,9 @@ Autor: Los chilakillers
 *****************************************************************/
 #include "funciones.h"
 
+//recibe un arreglo numeros que contiene los numeros desordenados
+//recibe un numero que equivale al tamanio del arreglo
+//devuelve cero si se realizo correctamente
 int ordenamiento_burbuja(int ** numeros, int n){ //aqui empieza el ordenamiento_burbuja
     if(numeros == NULL){return error(ARREGLO_NULO, "ordenamiento_burbuja");} //valida que el arrelgo de numeros no sea vacio
 
@@ -31,12 +34,12 @@ int ordenamiento_burbuja(int ** numeros, int n){ //aqui empieza el ordenamiento_
     return 0; //retorna cero
 }
 
-// Recibe un arreglo de numeros y un 
+// Recibe un arreglo de numeros y un
 // valor que indica cuantos elementos hay en el arreglo
-// Ordena el arreglo de numeros utilizando 
+// Ordena el arreglo de numeros utilizando
 // el ordenamiento burbuja mejorado cuya principal
 // caracteristica es el uso de una bandera indicando si ocurre algun intercambio
-// Devuelve 0 si se realizo correctamente 
+// Devuelve 0 si se realizo correctamente
 // y si ocurre un error termina la ejecucion e imprime el error
 int ordenamiento_burbuja_mejorado(int **numeros, int n) {
     if(numeros == NULL) return error(ARREGLO_NULO, "ordenamiento_burbuja_mejorado");
@@ -59,7 +62,9 @@ int ordenamiento_burbuja_mejorado(int **numeros, int n) {
     return 0;
 }
 
-
+//recibe un arreglo numeros que contiene los numeros desordenados
+//recibe un numero que equivale al tamanio del arreglo
+//devuelve cero si se realizo correctamente
 int ordenamiento_insercion(int ** numeros, int n){ //aqui comienza el ordenamiento_insercion
     if(numeros == NULL){return error(ARREGLO_NULO, "ordenamiento_insercion");} //valida que el arreglo de numeros no sea vacio
 
@@ -81,12 +86,12 @@ int ordenamiento_insercion(int ** numeros, int n){ //aqui comienza el ordenamien
     return 0; //retorna cero
 }
 
-// Recibe un arreglo de numeros y un valor 
+// Recibe un arreglo de numeros y un valor
 // que indica cuantos elementos hay en el arreglo
-// Ordena el arreglo de numeros utilizando el 
+// Ordena el arreglo de numeros utilizando el
 // ordenamiento de arbol por seleccion cuya principal
 // caracteristica es buscar el numero más pequeño y ponerlo en su lugar correcto
-// Devuelve 0 si se realizo correctamente y si 
+// Devuelve 0 si se realizo correctamente y si
 // ocurre un error termina la ejecucion e imprime el error
 int ordenamiento_seleccion(int **numeros, int n) {
     if(numeros == NULL) return error(ARREGLO_NULO, "ordenamiento_seleccion");
@@ -138,7 +143,7 @@ int ordenamiento_shell(int ** numeros, int n){ //inicia la declaracion de la fun
 // Recibe un arreglo de numeros y un valor que indica cuantos elementos hay en el arreglo
 // Ordena el arreglo de numeros utilizando el ordenamiento de arbol mejorado cuya principal
 // caracteristica es utilizar un arbol binario de busqueda y despues recorrerlo en inorden
-// Devuelve 0 si se realizo correctamente 
+// Devuelve 0 si se realizo correctamente
 // y si ocurre un error termina la ejecucion e imprime el error
 int ordenamiento_arbol(int **numeros, int n) {
     if(numeros == NULL) return error(ARREGLO_NULO, "ordenamiento_arbol");
@@ -153,7 +158,9 @@ int ordenamiento_arbol(int **numeros, int n) {
     return 0;
 }
 
-
+//recibe un arreglo numeros que contiene los numeros desordenados
+//recibe un numero que equivale al tamanio del arreglo
+//devuelve cero si se realizo correctamente
 int llenar_arreglo(int ** numeros, int n){ //saca n elementos del archivo y los pone en el arreglo
     if(numeros == NULL){return error(ARREGLO_NULO, "llenar_arreglo");} //valida que el arreglo en el que vamos a guardar los numeros no sea nulo
 
@@ -168,7 +175,9 @@ int llenar_arreglo(int ** numeros, int n){ //saca n elementos del archivo y los 
     return 0; //retorna cero
 }
 
-
+//recibe un arreglo numeros que contiene los numeros desordenados
+//recibe un numero que equivale al tamanio del arreglo
+//devuelve cero si se realizo correctamente
 int imprimir_arreglo(int * numeros, int n){ //imprime el arreglo que recibe como parametro
     if(numeros == NULL){return error(ARREGLO_NULO, "imprimir_arreglo");} //valida que el arreglo no este vacio
 
