@@ -1,15 +1,19 @@
 #include "funciones.h"
 
-int ordenamiento_burbuja(int ** numeros, int n){
-    if(numeros == NULL){return error(ARREGLO_NULO, "ordenamiento_burbuja");}
+int ordenamiento_burbuja(int ** numeros, int n){ //aqui empieza el ordenamiento_burbuja
+    if(numeros == NULL){return error(ARREGLO_NULO, "ordenamiento_burbuja");} //valida que el arrelgo de numeros no sea vacio
 
+    //inician las variables auxiliares
     int i = 0;
     int j = 0;
     int temp = 0;
 
+    //en este algoritmos recorreremos todo el arreglo comparando cada numero
+    //con el numero de la derecha para ver quien es el mayor
     for(i = 1; i < n; i++){
         for(j = 0; j < (n-1); j++){
-            if(numeros[0][j] > numeros[0][j+1]){
+            if(numeros[0][j] > numeros[0][j+1]){ //hacemos un swap en si el numero de la derecha es menor que el numero de la izquierda
+                //hacemos el swap de las posiciones
                 temp = numeros[0][j];
                 numeros[0][j] = numeros[0][j+1];
                 numeros[0][j+1] = temp;
@@ -17,7 +21,7 @@ int ordenamiento_burbuja(int ** numeros, int n){
         }
     }
 
-    return 0;
+    return 0; //retorna cero
 }
 
 int ordenamiento_burbuja_mejorado(int **numeros, int n) {
@@ -42,9 +46,10 @@ int ordenamiento_burbuja_mejorado(int **numeros, int n) {
 }
 
 
-int ordenamiento_insercion(int ** numeros, int n){
-    if(numeros == NULL){return error(ARREGLO_NULO, "ordenamiento_insercion");}
+int ordenamiento_insercion(int ** numeros, int n){ //aqui comienza el ordenamiento_insercion
+    if(numeros == NULL){return error(ARREGLO_NULO, "ordenamiento_insercion");} //valida que el arreglo de numeros no sea vacio
 
+    //inicializa las variables auxiliares
     int i = 0;
     int j = 0;
     int temporal = 0;
@@ -52,14 +57,14 @@ int ordenamiento_insercion(int ** numeros, int n){
     for(i = 1; i < n; i++){
         temporal = numeros[0][i];
         j = i - 1;
-        while( (numeros[0][j] > temporal) && (j >= 0) ){
+        while( (numeros[0][j] > temporal) && (j >= 0) ){ //siempre que la variable temporal sea mayor seguiremos bajando en el arrelgo
             numeros[0][j+1] = numeros[0][j];
-            j--;
+            j--; //decrementamos j
         }
-        numeros[0][j+1] = temporal;
+        numeros[0][j+1] = temporal; //ponemos a la variable temporal en el lugar que le toca
     }
 
-    return 0;
+    return 0; //retorna cero
 }
 
 int ordenamiento_seleccion(int **numeros, int n) {
@@ -82,29 +87,31 @@ int ordenamiento_seleccion(int **numeros, int n) {
     return 0;
 }
 
+//el ordenamiento shel comienza aqui
+//es una version mejorada del ordenamiento por incersion
+int ordenamiento_shell(int ** numeros, int n){ //inicia la declaracion de la funcion ordenamiento_shell
+    if(numeros == NULL){return error(ARREGLO_NULO, "ordenamiento_insercion");} //valida que el arreglo de numeros a ordenar no sea vacio
 
-int ordenamiento_shell(int ** numeros, int n){
-    if(numeros == NULL){return error(ARREGLO_NULO, "ordenamiento_insercion");}
-
+    //crea las variables auxiliares
     int i = 0;
     int k = n / 2;
     int v = 0;
     int j = 0;
 
-    while(k >= 1){
-        for(i = k; i < n; i++){
+    while(k >= 1){ //cuando k = 1, se volvera un simple ordenamiento por incersion
+        for(i = k; i < n; i++){ //en este ciclo nos aseguramos de por saltos ir ordenando de poco a poco el arreglo
             v = numeros[0][i];
             j = i - k;
-            while(j >= 0 && numeros[0][j] > v){
+            while(j >= 0 && numeros[0][j] > v){ //este paso es igual que el ordenamiento por incersion
                 numeros[0][j+k] = numeros[0][j];
                 j -= k;
             }
             numeros[0][j+k] = v;
         }
-        k /= 2;
+        k /= 2; //dividimos a k entre dos
     }
 
-    return 0;
+    return 0; //retorna cero
 }
 
 int ordenamiento_arbol(int **numeros, int n) {
@@ -123,31 +130,31 @@ int ordenamiento_arbol(int **numeros, int n) {
 
 
 int llenar_arreglo(int ** numeros, int n){ //saca n elementos del archivo y los pone en el arreglo
-    if(numeros == NULL){return error(ARREGLO_NULO, "llenar_arreglo");}
+    if(numeros == NULL){return error(ARREGLO_NULO, "llenar_arreglo");} //valida que el arreglo en el que vamos a guardar los numeros no sea nulo
 
-    int i = 0;
-    char * auxiliar = (char *)malloc(33 * sizeof(char));
+    int i = 0; //crea un enetero igualado a cero
+    char * auxiliar = (char *)malloc(33 * sizeof(char)); //creamos la variable auxiliar para leer los numeros
 
     for(i = 0; i < n; i++){ //llenando el arreglo de numeros
-        scanf("%s", auxiliar);
-        *(*(numeros) + i) = atoi(auxiliar);
+        scanf("%s", auxiliar); //lee un numero
+        *(*(numeros) + i) = atoi(auxiliar); //convierte el numero de cadena de caracteres a entero y lo guarda en el arreglo
     }
 
-    return 0;
+    return 0; //retorna cero
 }
 
 
-int imprimir_arreglo(int * numeros, int n){
-    if(numeros == NULL){return error(ARREGLO_NULO, "imprimir_arreglo");}
+int imprimir_arreglo(int * numeros, int n){ //imprime el arreglo que recibe como parametro
+    if(numeros == NULL){return error(ARREGLO_NULO, "imprimir_arreglo");} //valida que el arreglo no este vacio
 
-    int i = 0;
+    int i = 0; //crea una variable de tipo entero igualada a cero
 
-    printf("%s\n", "El arreglo es:");
-    for(i = 0; i < n; i++){
-        printf("%d\n", numeros[i]);
+    printf("%s\n", "El arreglo es:"); //imprime "el arreglo es:"
+    for(i = 0; i < n; i++){ //itera desde 0 hasta n
+        printf("%d\n", numeros[i]); //imprime el numero de la posicion i del arreglo
     }
 
-    return 0;
+    return 0; //retorna cero
 }
 
 

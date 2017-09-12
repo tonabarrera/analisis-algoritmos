@@ -2,241 +2,199 @@
 ARBOL
 n =  100
 
-real (Tiempo total)  0.0000171661 s
-user (Tiempo de procesamiento en CPU) 0.0000200000 s
-sys (Tiempo en acciónes de E/S)  0.0000000000 s
-CPU/Wall   116.5084444444 % 
+real (Tiempo total)  0.0005819798 s
+user (Tiempo de procesamiento en CPU) 0.0001070000 s
+sys (Tiempo en acciónes de E/S)  0.0001710000 s
+CPU/Wall   47.7679849242 % 
 
 ========================================================================
 ========================================================================
 ARBOL
 n =  1000
 
-real (Tiempo total)  0.0002808571 s
-user (Tiempo de procesamiento en CPU) 0.0002840000 s
-sys (Tiempo en acciónes de E/S)  0.0000000000 s
-CPU/Wall   101.1190438031 % 
+real (Tiempo total)  0.0008089542 s
+user (Tiempo de procesamiento en CPU) 0.0003570000 s
+sys (Tiempo en acciónes de E/S)  0.0001660000 s
+CPU/Wall   64.6513702328 % 
 
 ========================================================================
 ========================================================================
 ARBOL
 n =  5000
 
-real (Tiempo total)  0.0014889240 s
-user (Tiempo de procesamiento en CPU) 0.0014920000 s
-sys (Tiempo en acciónes de E/S)  0.0000000000 s
-CPU/Wall   100.2065903603 % 
+real (Tiempo total)  0.0028760433 s
+user (Tiempo de procesamiento en CPU) 0.0019620000 s
+sys (Tiempo en acciónes de E/S)  0.0002740000 s
+CPU/Wall   77.7456996104 % 
 
 ========================================================================
 ========================================================================
 ARBOL
 n =  10000
 
-real (Tiempo total)  0.0033769608 s
-user (Tiempo de procesamiento en CPU) 0.0033810000 s
-sys (Tiempo en acciónes de E/S)  0.0000000000 s
-CPU/Wall   100.1196118611 % 
+real (Tiempo total)  0.0045900345 s
+user (Tiempo de procesamiento en CPU) 0.0038460000 s
+sys (Tiempo en acciónes de E/S)  0.0003670000 s
+CPU/Wall   91.7858027841 % 
 
 ========================================================================
 ========================================================================
 ARBOL
 n =  50000
 
-real (Tiempo total)  0.0240280628 s
-user (Tiempo de procesamiento en CPU) 0.0240310000 s
-sys (Tiempo en acciónes de E/S)  0.0000000000 s
-CPU/Wall   100.0122239549 % 
+real (Tiempo total)  0.0305469036 s
+user (Tiempo de procesamiento en CPU) 0.0286680000 s
+sys (Tiempo en acciónes de E/S)  0.0011970000 s
+CPU/Wall   97.7676833668 % 
 
 ========================================================================
 ========================================================================
 ARBOL
 n =  100000
 
-real (Tiempo total)  0.0751700401 s
-user (Tiempo de procesamiento en CPU) 0.0751770000 s
-sys (Tiempo en acciónes de E/S)  0.0000000000 s
-CPU/Wall   100.0092588342 % 
+real (Tiempo total)  0.0711979866 s
+user (Tiempo de procesamiento en CPU) 0.0670730000 s
+sys (Tiempo en acciónes de E/S)  0.0022980000 s
+CPU/Wall   97.4339350170 % 
 
 ========================================================================
 ========================================================================
 ARBOL
 n =  200000
 
-real (Tiempo total)  0.1617319584 s
-user (Tiempo de procesamiento en CPU) 0.1617100000 s
-sys (Tiempo en acciónes de E/S)  0.0000000000 s
-CPU/Wall   99.9864229745 % 
+real (Tiempo total)  0.1543629169 s
+user (Tiempo de procesamiento en CPU) 0.1446100000 s
+sys (Tiempo en acciónes de E/S)  0.0043040000 s
+CPU/Wall   96.4700609096 % 
 
 ========================================================================
 ========================================================================
 ARBOL
 n =  400000
 
-real (Tiempo total)  0.3431351185 s
-user (Tiempo de procesamiento en CPU) 0.3363940000 s
-sys (Tiempo en acciónes de E/S)  0.0067100000 s
-CPU/Wall   99.9909311281 % 
+real (Tiempo total)  0.3521220684 s
+user (Tiempo de procesamiento en CPU) 0.3367210000 s
+sys (Tiempo en acciónes de E/S)  0.0071230000 s
+CPU/Wall   97.6490912817 % 
 
 ========================================================================
 ========================================================================
 ARBOL
 n =  600000
 
-real (Tiempo total)  0.5758070946 s
-user (Tiempo de procesamiento en CPU) 0.5623620000 s
-sys (Tiempo en acciónes de E/S)  0.0133720000 s
-CPU/Wall   99.9873057184 % 
+real (Tiempo total)  1.0087471008 s
+user (Tiempo de procesamiento en CPU) 0.5299880000 s
+sys (Tiempo en acciónes de E/S)  0.0096210000 s
+CPU/Wall   53.4929914104 % 
 
 ========================================================================
 ========================================================================
 ARBOL
 n =  800000
 
-real (Tiempo total)  0.8441138268 s
-user (Tiempo de procesamiento en CPU) 0.8339470000 s
-sys (Tiempo en acciónes de E/S)  0.0100830000 s
-CPU/Wall   99.9900692597 % 
+real (Tiempo total)  0.7468597889 s
+user (Tiempo de procesamiento en CPU) 0.7335540000 s
+sys (Tiempo en acciónes de E/S)  0.0113140000 s
+CPU/Wall   99.7333115366 % 
 
 ========================================================================
 ========================================================================
 ARBOL
 n =  1000000
 
-real (Tiempo total)  1.1157450676 s
-user (Tiempo de procesamiento en CPU) 1.1023830000 s
-sys (Tiempo en acciónes de E/S)  0.0132390000 s
-CPU/Wall   99.9889699179 % 
+real (Tiempo total)  0.9733610153 s
+user (Tiempo de procesamiento en CPU) 0.9569490000 s
+sys (Tiempo en acciónes de E/S)  0.0146130000 s
+CPU/Wall   99.8151749154 % 
 
 ========================================================================
 ========================================================================
 ARBOL
 n =  2000000
 
-real (Tiempo total)  2.5746688843 s
-user (Tiempo de procesamiento en CPU) 2.5200380000 s
-sys (Tiempo en acciónes de E/S)  0.0335440000 s
-CPU/Wall   99.1809865569 % 
+real (Tiempo total)  2.2166070938 s
+user (Tiempo de procesamiento en CPU) 2.1833850000 s
+sys (Tiempo en acciónes de E/S)  0.0299970000 s
+CPU/Wall   99.8545031359 % 
 
 ========================================================================
 ========================================================================
 ARBOL
 n =  3000000
 
-real (Tiempo total)  4.2954699993 s
-user (Tiempo de procesamiento en CPU) 4.2510760000 s
-sys (Tiempo en acciónes de E/S)  0.0432980000 s
-CPU/Wall   99.9744847639 % 
+real (Tiempo total)  3.6748600006 s
+user (Tiempo de procesamiento en CPU) 3.6188290000 s
+sys (Tiempo en acciónes de E/S)  0.0472560000 s
+CPU/Wall   99.7612153767 % 
 
 ========================================================================
 ========================================================================
 ARBOL
 n =  4000000
 
-real (Tiempo total)  6.0065479279 s
-user (Tiempo de procesamiento en CPU) 5.9489500000 s
-sys (Tiempo en acciónes de E/S)  0.0566950000 s
-CPU/Wall   99.9849676076 % 
+real (Tiempo total)  5.1751489639 s
+user (Tiempo de procesamiento en CPU) 5.1002600000 s
+sys (Tiempo en acciónes de E/S)  0.0647350000 s
+CPU/Wall   99.8037937845 % 
 
 ========================================================================
 ========================================================================
 ARBOL
 n =  5000000
 
-real (Tiempo total)  8.0334019661 s
-user (Tiempo de procesamiento en CPU) 7.9449640000 s
-sys (Tiempo en acciónes de E/S)  0.0865350000 s
-CPU/Wall   99.9763118278 % 
+real (Tiempo total)  6.7455239296 s
+user (Tiempo de procesamiento en CPU) 6.6503410000 s
+sys (Tiempo en acciónes de E/S)  0.0821070000 s
+CPU/Wall   99.8061539810 % 
 
 ========================================================================
 ========================================================================
 ARBOL
 n =  6000000
 
-real (Tiempo total)  9.8741228580 s
-user (Tiempo de procesamiento en CPU) 9.7358740000 s
-sys (Tiempo en acciónes de E/S)  0.0799780000 s
-CPU/Wall   99.4098629429 % 
+real (Tiempo total)  8.4024541378 s
+user (Tiempo de procesamiento en CPU) 8.2893780000 s
+sys (Tiempo en acciónes de E/S)  0.0997530000 s
+CPU/Wall   99.8414375421 % 
 
 ========================================================================
 ========================================================================
 ARBOL
 n =  7000000
 
-real (Tiempo total)  12.0064070225 s
-user (Tiempo de procesamiento en CPU) 11.9226070000 s
-sys (Tiempo en acciónes de E/S)  0.0800090000 s
-CPU/Wall   99.9684250045 % 
+real (Tiempo total)  11.0493941307 s
+user (Tiempo de procesamiento en CPU) 10.7370780000 s
+sys (Tiempo en acciónes de E/S)  0.1702650000 s
+CPU/Wall   98.7143989161 % 
 
 ========================================================================
 ========================================================================
 ARBOL
 n =  8000000
 
-real (Tiempo total)  15.0043621063 s
-user (Tiempo de procesamiento en CPU) 14.8755970000 s
-sys (Tiempo en acciónes de E/S)  0.1267250000 s
-CPU/Wall   99.9864032452 % 
+real (Tiempo total)  12.3582510948 s
+user (Tiempo de procesamiento en CPU) 12.1310400000 s
+sys (Tiempo en acciónes de E/S)  0.1596540000 s
+CPU/Wall   99.4533442127 % 
 
 ========================================================================
 ========================================================================
 ARBOL
 n =  9000000
 
-real (Tiempo total)  16.6795518398 s
-user (Tiempo de procesamiento en CPU) 16.5157260000 s
-sys (Tiempo en acciónes de E/S)  0.1567120000 s
-CPU/Wall   99.9573499342 % 
+real (Tiempo total)  14.6475579739 s
+user (Tiempo de procesamiento en CPU) 14.3223590000 s
+sys (Tiempo en acciónes de E/S)  0.2116970000 s
+CPU/Wall   99.2251133324 % 
 
 ========================================================================
 ========================================================================
 ARBOL
 n =  10000000
 
-real (Tiempo total)  18.2531929016 s
-user (Tiempo de procesamiento en CPU) 18.1373320000 s
-sys (Tiempo en acciónes de E/S)  0.1067470000 s
-CPU/Wall   99.9500695486 % 
-
-========================================================================
-AQUI
-========================================================================
-ARBOL
-n =  10000000
-
-real (Tiempo total)  17.1484851837 s
-user (Tiempo de procesamiento en CPU) 17.0014520000 s
-sys (Tiempo en acciónes de E/S)  0.1466800000 s
-CPU/Wall   99.9979404378 % 
-
-========================================================================
-AQUI x2
-========================================================================
-ARBOL
-n =  10000000
-
-real (Tiempo total)  17.1406800747 s
-user (Tiempo de procesamiento en CPU) 16.9801770000 s
-sys (Tiempo en acciónes de E/S)  0.1600160000 s
-CPU/Wall   99.9971583701 % 
-
-========================================================================
-========================================================================
-ARBOL
-n =  10000000
-
-real (Tiempo total)  17.1308898926 s
-user (Tiempo de procesamiento en CPU) 17.0072620000 s
-sys (Tiempo en acciónes de E/S)  0.1233560000 s
-CPU/Wall   99.9984128520 % 
-
-========================================================================
-========================================================================
-ARBOL
-n =  10000000
-
-real (Tiempo total)  17.0730710030 s
-user (Tiempo de procesamiento en CPU) 16.9527520000 s
-sys (Tiempo en acciónes de E/S)  0.1200510000 s
-CPU/Wall   99.9984302592 % 
+real (Tiempo total)  17.1624882221 s
+user (Tiempo de procesamiento en CPU) 16.6561600000 s
+sys (Tiempo en acciónes de E/S)  0.2772310000 s
+CPU/Wall   98.6651281612 % 
 
 ========================================================================
