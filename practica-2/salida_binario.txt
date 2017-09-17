@@ -1,0 +1,4000 @@
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 322486, indice del numero: -1
+real (Tiempo total)  0.0010700226 s
+user (Tiempo de procesamiento en CPU) 0.0000950000 s
+sys (Tiempo en acciónes de E/S)  0.0001780000 s
+CPU/Wall   25.5134802139 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 3128036, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 6337399, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 10393545, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 1295390003, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 1493283650, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 1843349527, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 2109248666, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   nan % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 2147470852, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 322486, indice del numero: -1
+real (Tiempo total)  0.0009369850 s
+user (Tiempo de procesamiento en CPU) 0.0001050000 s
+sys (Tiempo en acciónes de E/S)  0.0002080000 s
+CPU/Wall   33.4050165903 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 3128036, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 6337399, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 10393545, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 1295390003, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   nan % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 1493283650, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860800000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 1843349527, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 2109248666, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860800000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 2147470852, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 322486, indice del numero: 1612
+real (Tiempo total)  0.0005950928 s
+user (Tiempo de procesamiento en CPU) 0.0000630000 s
+sys (Tiempo en acciónes de E/S)  0.0001210000 s
+CPU/Wall   30.9195487179 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   nan % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 3128036, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 6337399, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 10393545, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   nan % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 1295390003, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   83.8860800000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   nan % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 1493283650, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 1843349527, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 2109248666, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   nan % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 2147470852, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 322486, indice del numero: 1612
+real (Tiempo total)  0.0008649826 s
+user (Tiempo de procesamiento en CPU) 0.0001190000 s
+sys (Tiempo en acciónes de E/S)  0.0002680000 s
+CPU/Wall   44.7407841235 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860800000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 3128036, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 6337399, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 10393545, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 1295390003, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   nan % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 1493283650, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 1843349527, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7151999999 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 2109248666, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860800000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 2147470852, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 322486, indice del numero: 1612
+real (Tiempo total)  0.0006639957 s
+user (Tiempo de procesamiento en CPU) 0.0001030000 s
+sys (Tiempo en acciónes de E/S)  0.0002020000 s
+CPU/Wall   45.9340294434 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999999 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 3128036, indice del numero: 14726
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999999 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 6337399, indice del numero: 29545
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   93.2067555556 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860799999 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 10393545, indice del numero: 48375
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999999 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 1295390003, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860799999 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999999 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 1493283650, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   nan % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860799999 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 1843349527, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 2109248666, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 2147470852, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  50000
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 322486, indice del numero: 1612
+real (Tiempo total)  0.0005249977 s
+user (Tiempo de procesamiento en CPU) 0.0000730000 s
+sys (Tiempo en acciónes de E/S)  0.0001340000 s
+CPU/Wall   39.4287433243 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 3128036, indice del numero: 14726
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999999 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 6337399, indice del numero: 29545
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   46.6033777777 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 10393545, indice del numero: 48375
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999999 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 1295390003, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7151999999 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7151999999 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 1493283650, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860799999 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 1843349527, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7151999999 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 2109248666, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   83.8860800000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 2147470852, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   nan % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  100000
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 322486, indice del numero: 1612
+real (Tiempo total)  0.0005049706 s
+user (Tiempo de procesamiento en CPU) 0.0000970000 s
+sys (Tiempo en acciónes de E/S)  0.0001760000 s
+CPU/Wall   54.0625586402 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   52.4288000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 3128036, indice del numero: 14726
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 6337399, indice del numero: 29545
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999997 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 10393545, indice del numero: 48375
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999997 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999997 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 1295390003, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999997 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 1493283650, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 1843349527, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 2109248666, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 2147470852, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   nan % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  200000
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 322486, indice del numero: 1612
+real (Tiempo total)  0.0005269051 s
+user (Tiempo de procesamiento en CPU) 0.0000760000 s
+sys (Tiempo en acciónes de E/S)  0.0001560000 s
+CPU/Wall   44.0307026244 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   139.8101333334 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 3128036, indice del numero: 14726
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 6337399, indice del numero: 29545
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 10393545, indice del numero: 48375
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   46.6033777778 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999994 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 1295390003, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   nan % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 1493283650, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 1843349527, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860800001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 2109248666, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860800001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 2147470852, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   83.8860800000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  400000
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 322486, indice del numero: 1612
+real (Tiempo total)  0.0005300045 s
+user (Tiempo de procesamiento en CPU) 0.0000930000 s
+sys (Tiempo en acciónes de E/S)  0.0001730000 s
+CPU/Wall   50.1882529915 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 3128036, indice del numero: 14726
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 6337399, indice del numero: 29545
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 10393545, indice del numero: 48375
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 1295390003, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   167.7721599989 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 1493283650, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 1843349527, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 2109248666, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 2147470852, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  600000
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 322486, indice del numero: 1612
+real (Tiempo total)  0.0004880428 s
+user (Tiempo de procesamiento en CPU) 0.0000840000 s
+sys (Tiempo en acciónes de E/S)  0.0001640000 s
+CPU/Wall   50.8152121153 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 3128036, indice del numero: 14726
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860800001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 6337399, indice del numero: 29545
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999986 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 10393545, indice del numero: 48375
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860800001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 1295390003, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   167.7721600001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 1493283650, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860800001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 1843349527, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 2109248666, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 2147470852, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  800000
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 322486, indice del numero: 1612
+real (Tiempo total)  0.0004880428 s
+user (Tiempo de procesamiento en CPU) 0.0000860000 s
+sys (Tiempo en acciónes de E/S)  0.0001550000 s
+CPU/Wall   49.3809117733 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 3128036, indice del numero: 14726
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000002 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 6337399, indice del numero: 29545
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 10393545, indice del numero: 48375
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   167.7721600002 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 1295390003, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000002 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000002 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 1493283650, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860800001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 1843349527, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 2109248666, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 2147470852, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  1000000
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8575999999 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 322486, indice del numero: 1612
+real (Tiempo total)  0.0004980564 s
+user (Tiempo de procesamiento en CPU) 0.0000900000 s
+sys (Tiempo en acciónes de E/S)  0.0001460000 s
+CPU/Wall   47.3841907133 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 3128036, indice del numero: 14726
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 6337399, indice del numero: 29545
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   167.7721600002 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 10393545, indice del numero: 48375
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   52.4288000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 1295390003, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7151999971 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 1493283650, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8575999999 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 1843349527, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 2109248666, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 2147470852, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8575999999 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  2000000
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 322486, indice del numero: 1612
+real (Tiempo total)  0.0005118847 s
+user (Tiempo de procesamiento en CPU) 0.0000850000 s
+sys (Tiempo en acciónes de E/S)  0.0001740000 s
+CPU/Wall   50.5973328365 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   46.6033777791 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 3128036, indice del numero: 14726
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7151999969 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 6337399, indice del numero: 29545
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   46.6033777791 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000030 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 10393545, indice del numero: 48375
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   46.6033777791 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   46.6033777765 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 1295390003, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000031 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860800024 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000030 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 1493283650, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000030 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 1843349527, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   nan % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 2109248666, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   167.7721600025 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 2147470852, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  3000000
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000028 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 322486, indice del numero: 1612
+real (Tiempo total)  0.0005481243 s
+user (Tiempo de procesamiento en CPU) 0.0000710000 s
+sys (Tiempo en acciónes de E/S)  0.0001500000 s
+CPU/Wall   40.3193207481 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000030 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 3128036, indice del numero: 14726
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000031 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 6337399, indice del numero: 29545
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999972 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000028 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 10393545, indice del numero: 48375
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999972 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   157.2864000002 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 1295390003, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   52.4288000015 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000031 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999972 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   52.4288000015 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999972 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 1493283650, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 1843349527, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   nan % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 2109248666, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000030 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 2147470852, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   nan % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  4000000
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999972 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 322486, indice del numero: 1612
+real (Tiempo total)  0.0005590916 s
+user (Tiempo de procesamiento en CPU) 0.0000870000 s
+sys (Tiempo en acciónes de E/S)  0.0001720000 s
+CPU/Wall   46.3251486567 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000028610 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000020 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 3128036, indice del numero: 14726
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999972 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 6337399, indice del numero: 29545
+real (Tiempo total)  0.0000030994 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   96.7916307709 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000030 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 10393545, indice del numero: 48375
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   157.2864000031 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999972 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 1295390003, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000028610 s
+user (Tiempo de procesamiento en CPU) 0.0000030000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999991 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000038147 s
+user (Tiempo de procesamiento en CPU) 0.0000040000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000031 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000030 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 1493283650, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860800024 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000031 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 1843349527, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 2109248666, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000030 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 2147470852, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8575999994 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  5000000
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999914 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 322486, indice del numero: 1612
+real (Tiempo total)  0.0005419254 s
+user (Tiempo de procesamiento en CPU) 0.0001140000 s
+sys (Tiempo en acciónes de E/S)  0.0001430000 s
+CPU/Wall   47.4234988121 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000030000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   186.4135111100 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 3128036, indice del numero: 14726
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   93.2067555531 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 6337399, indice del numero: 29545
+real (Tiempo total)  0.0000030994 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   64.5277538444 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999914 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 10393545, indice del numero: 48375
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   52.4287999957 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999914 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 1295390003, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   93.2067555531 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000040531 s
+user (Tiempo de procesamiento en CPU) 0.0000030000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   98.6895058818 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   nan % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7151999915 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860800024 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 1493283650, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000030 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 1843349527, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   167.7721599932 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 2109248666, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860800024 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 2147470852, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   nan % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  6000000
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000030 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 322486, indice del numero: 1612
+real (Tiempo total)  0.0005211830 s
+user (Tiempo de procesamiento en CPU) 0.0000730000 s
+sys (Tiempo en acciónes de E/S)  0.0001430000 s
+CPU/Wall   41.4441749314 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 3128036, indice del numero: 14726
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000031 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 6337399, indice del numero: 29545
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860800024 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000030 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 10393545, indice del numero: 48375
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   46.6033777791 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   46.6033777791 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 1295390003, indice del numero: 6031094
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   52.4288000015 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   52.4288000015 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000040531 s
+user (Tiempo de procesamiento en CPU) 0.0000040000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   98.6895058825 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   167.7721599932 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 1493283650, indice del numero: 6952608
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7152000031 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 1843349527, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860800024 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000016 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 2109248666, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999914 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 2147470852, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   167.7721600019 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  7000000
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   nan % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 322486, indice del numero: 1612
+real (Tiempo total)  0.0006020069 s
+user (Tiempo de procesamiento en CPU) 0.0000780000 s
+sys (Tiempo en acciónes de E/S)  0.0001930000 s
+CPU/Wall   45.0160944158 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860799931 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 3128036, indice del numero: 14726
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   46.6033777739 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 6337399, indice del numero: 29545
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   167.7721600118 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999914 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 10393545, indice del numero: 48375
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   209.7152000060 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   93.2067555479 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 1295390003, indice del numero: 6031094
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   167.7721600048 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   139.8101333257 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000040531 s
+user (Tiempo de procesamiento en CPU) 0.0000040000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   98.6895058852 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000001 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000147 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000147 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 1493283650, indice del numero: 6952608
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   167.7721600048 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7151999915 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 1843349527, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   314.5728000061 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 2109248666, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860799931 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 2147470852, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  8000000
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999914 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 322486, indice del numero: 1612
+real (Tiempo total)  0.0005481243 s
+user (Tiempo de procesamiento en CPU) 0.0000850000 s
+sys (Tiempo en acciónes de E/S)  0.0001810000 s
+CPU/Wall   48.5291371901 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000028610 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   104.8576000020 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 3128036, indice del numero: 14726
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000030 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 6337399, indice del numero: 29545
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   157.2863999914 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999914 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 10393545, indice del numero: 48375
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   157.2863999914 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860799931 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 1295390003, indice del numero: 6031094
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7151999908 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000040531 s
+user (Tiempo de procesamiento en CPU) 0.0000040000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   98.6895058797 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000030994 s
+user (Tiempo de procesamiento en CPU) 0.0000030000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   129.0555076915 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999914 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999914 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   83.8860799931 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 1493283650, indice del numero: 6952608
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999914 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000147 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 1843349527, indice del numero: 8582391
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   52.4288000073 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   46.6033777739 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 2109248666, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999914 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 2147470852, indice del numero: -1
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   inf % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  9000000
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000000000 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   nan % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 322486, indice del numero: 1612
+real (Tiempo total)  0.0005450249 s
+user (Tiempo de procesamiento en CPU) 0.0000740000 s
+sys (Tiempo en acciónes de E/S)  0.0001580000 s
+CPU/Wall   42.5668647419 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 14700764, indice del numero: -1
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000030 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 3128036, indice del numero: 14726
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   209.7151999827 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 6337399, indice del numero: 29545
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999914 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 61396, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   0.0000000000 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 10393545, indice del numero: 48375
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   46.6033777739 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 2147445644, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000147 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 1295390003, indice del numero: 6031094
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   52.4287999957 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 450057883, indice del numero: -1
+real (Tiempo total)  0.0000040531 s
+user (Tiempo de procesamiento en CPU) 0.0000030000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   74.0171294112 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 187645041, indice del numero: -1
+real (Tiempo total)  0.0000038147 s
+user (Tiempo de procesamiento en CPU) 0.0000030000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   78.6432000052 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 1980098116, indice del numero: -1
+real (Tiempo total)  0.0000019073 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8576000030 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 152503, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999914 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 5000, indice del numero: -1
+real (Tiempo total)  0.0000011921 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   167.7721599932 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 1493283650, indice del numero: 6952608
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   93.2067555582 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 214826, indice del numero: -1
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7151999915 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 1843349527, indice del numero: 8582391
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999914 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 1360839354, indice del numero: -1
+real (Tiempo total)  0.0000030994 s
+user (Tiempo de procesamiento en CPU) 0.0000020000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   96.7916307709 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 2109248666, indice del numero: 9822540
+real (Tiempo total)  0.0000021458 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   46.6033777739 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 2147470852, indice del numero: 9999943
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000010000 s
+CPU/Wall   209.7151999915 % 
+
+========================================================================
+========================================================================
+BUSQUEDA BINARIA
+n =  10000000
+Numero buscado: 0, indice del numero: 0
+real (Tiempo total)  0.0000009537 s
+user (Tiempo de procesamiento en CPU) 0.0000010000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   104.8575999914 % 
+
+========================================================================
