@@ -26,6 +26,7 @@ Autor: Los chilakillers
 
     //la definicion de las funciones del programa
     int busqueda_binaria(int *, int, int, int);
+    int busqueda_arbol(struct Arbol *, int);
     int llenar_arreglo(int **, int);
     int error(int, char*);
     int imprimir_arreglo(int *, int);

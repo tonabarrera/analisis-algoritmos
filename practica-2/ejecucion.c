@@ -100,6 +100,27 @@ int main (int argc, char* argv[])
 				printf("%s\n", "========================================================================");
 			}
             break;
+        case ARBOL:
+        // LLenar la variable numeros
+            struct Arbol *arbol = NULL;
+            for (i = 0; i < n; i++)
+                insertar(&arbol, numeros[0][i]);
+            for(i = 0; i < 20; i++){
+                uswtime(&utime0, &stime0, &wtime0);
+                int res = busqueda_arbol(arbol, numeros_prueba[i]);
+                uswtime(&utime1, &stime1, &wtime1);
+                printf("%s\n", "========================================================================");
+                printf("%s\n", "BUSQUEDA ARBOL BINARIO");
+                printf("%s %d\n", "n = ", n);
+                printf("Numero buscado: %d, encontrado: %s", numeros_prueba[i], res == -1 ? "No": "Si");
+                printf("\n");
+                printf("real (Tiempo total)  %.10f s\n",  wtime1 - wtime0);
+                printf("user (Tiempo de procesamiento en CPU) %.10f s\n",  utime1 - utime0);
+                printf("sys (Tiempo en acciónes de E/S)  %.10f s\n",  stime1 - stime0);
+                printf("CPU/Wall   %.10f %% \n",100.0 * (utime1 - utime0 + stime1 - stime0) / (wtime1 - wtime0));
+                printf("\n");
+                printf("%s\n", "========================================================================");
+            }
         default:
             printf("ERROR");
             exit(1);

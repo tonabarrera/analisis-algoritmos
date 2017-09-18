@@ -32,6 +32,25 @@ int busqueda_binaria(int * numeros, int n, int izquierda, int derecha){
     FIN del algoritmo de BUSQUEDA BINARIA
 ***************************************************************/
 
+/**************************************************************
+    BUSQUEDA ARBOL
+    - Este algoritmo recibe como parametro un arbol binario que contiene los numeros "ordenados",
+    un numero a buscar.
+    - Se basa en recorrer el arbol desde la raiz y decidir a que nodo hijo (izquierda/derecha)
+    debe de moverse.
+    - Retorna uno si lo encuentra o -1 si no lo encuentra.
+***************************************************************/
+int busqueda_arbol(struct Arbol *arbol, int dato){
+    if(arbol == NULL)
+        return -1; // No se encontro el elemento
+    if(dato == arbol->elemento) // Si el numero lo encuentra retorna 1
+        return 1;
+    if(dato > arbol->elemento)
+        return busqueda_arbol(arbol->derecha, dato);
+    else
+        return busqueda_arbol(arbol->izquierda, dato);
+    return -1; // No se encontro el elemento
+}
 
 //Estas funciones son axuliares
 
