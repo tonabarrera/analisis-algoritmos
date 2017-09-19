@@ -6,7 +6,25 @@ Versión: 2.0
 Autor: Los chilakillers
 *****************************************************************/
 #include "funciones.h"
+/****************************************************************
+    BUSQUEDA LINEAL
+    -Este algoritmo recibe como parametro un arreglo de numeros que se supone ordenado, un numero entero a buscar,
+      y el tamaño específico del arreglo de numeros ordenados.
 
+    -Busca el número recorriendo cada elemento del arreglo de principio a fin
+
+    -Retorna el indice del elemento encontrado o -1 si no se encuentra
+****************************************************************/
+int busqueda_lineal(int * numeros, int n, int tam_arreglo){
+    if(numeros == NULL){return -1;} //revisamos que el arreglo de numeros no sea nulo
+    for (int i = 0; i< tam_arreglo; i++) {//hacemos un for que nos permita iterar sobre todos los numeros del arreglo desde la primera posicion, hasta la ultima
+        if (numeros[i] == n) {return i;}//numeros[i] = n, ya lo encontramos y retornamos a i(el indice del arreglo)
+   }
+   return -1; //esto es para evitar el warning, en realidad no deberia llegar a este punto
+}
+/***************************************************************
+    FIN del algoritmo de BUSQUEDA LINEAL
+***************************************************************/
 /****************************************************************
     BUSQUEDA BINARIA
     -Este algoritmo recibe como parametro un arreglo de numeros que se supone ordenado, un numero entero a buscar,
