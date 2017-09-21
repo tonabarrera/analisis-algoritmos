@@ -61,9 +61,9 @@ int busqueda_binaria(int * numeros, int n, int izquierda, int derecha){
 int busqueda_arbol(struct Arbol *arbol, int dato){
     if(arbol == NULL)
         return -1; // No se encontro el elemento
-    if(dato == arbol->elemento) // Si el numero lo encuentra retorna 1
+    if(dato == arbol->valor) // Si el numero lo encuentra retorna 1
         return 1;
-    if(dato > arbol->elemento)
+    if(dato > arbol->valor)
         return busqueda_arbol(arbol->derecha, dato);
     else
         return busqueda_arbol(arbol->izquierda, dato);

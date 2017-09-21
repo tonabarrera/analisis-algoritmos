@@ -43,6 +43,7 @@ int main (int argc, char* argv[])
 	double utime0, stime0, wtime0,utime1, stime1, wtime1; //Variables para medición de tiempos
 	int n; 	//n determina el tamaño del algorito dado por argumento al ejecutar
     int algoritmo = 1;
+    struct Arbol *arbol = NULL;
 
 	int numeros_prueba[] = {
 		322486, 14700764, 3128036, 6337399, 61396,
@@ -102,9 +103,8 @@ int main (int argc, char* argv[])
             break;
         case ARBOL:
         // LLenar la variable numeros
-            struct Arbol *arbol = NULL;
             for (i = 0; i < n; i++)
-                insertar(&arbol, numeros[0][i]);
+                insertar(&arbol, numeros[i]);
             for(i = 0; i < 20; i++){
                 uswtime(&utime0, &stime0, &wtime0);
                 int res = busqueda_arbol(arbol, numeros_prueba[i]);
@@ -121,6 +121,7 @@ int main (int argc, char* argv[])
                 printf("\n");
                 printf("%s\n", "========================================================================");
             }
+            break;
 	case LINEAL:
 			for(i = 0; i < 20; i++){
 				uswtime(&utime0, &stime0, &wtime0);

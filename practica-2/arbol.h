@@ -12,7 +12,7 @@ Autor: Los chilakillers
 #include <stdio.h>
 #include <stdlib.h>
 
-// estructura que simula un arbol binario
+// estructura que modela el arbol binario
 struct Arbol {
     int valor;
     struct Arbol *derecha;
@@ -28,9 +28,5 @@ int insertar(struct Arbol **, int);
 // despues ser insertado en otro nodo, devuelve - en caso de
 // error y 1 si hubo exito
 int crear_arbol(struct Arbol **, int);
-// Recibe el arbol a recorrer y el array en donde se guardaran los
-// numeros, se recorre en inorden el arbol utilizando una variable
-// estatica para guardar el indice en el que nos encontramos 
-int guardar_inorden(struct Arbol *, int **);
 
 #endif

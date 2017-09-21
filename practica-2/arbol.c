@@ -41,19 +41,3 @@ int crear_arbol(struct Arbol **nuevo, int valor) {
     *nuevo = auxiliar;
     return 1;
 }
-
-// Recibe el arbol a recorrer y el array en donde se guardaran los
-// numeros, se recorre en inorden el arbol utilizando una variable
-// estatica para guardar el indice en el que nos encontramos 
-int guardar_inorden(struct Arbol *arbol, int **numeros) {
-    static int contador_arbol = -1;
-    if (arbol == NULL){
-        contador_arbol = contador_arbol + 1;
-        return 0;
-    }
-
-    guardar_inorden(arbol->izquierda, numeros);
-    numeros[0][contador_arbol] = arbol->valor;
-    guardar_inorden(arbol->derecha, numeros);
-    return 0;
-}
