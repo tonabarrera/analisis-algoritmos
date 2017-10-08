@@ -33,6 +33,9 @@ int crear_arbol(struct Arbol **nuevo, int valor) {
     struct Arbol *auxiliar = NULL;
     auxiliar = (struct Arbol*)malloc(sizeof(struct Arbol));
 
+    if (valor < 5000)
+        printf("el valor es: %d\n", valor);
+
     if (auxiliar == NULL) return -1;
 
     auxiliar->izquierda = NULL;

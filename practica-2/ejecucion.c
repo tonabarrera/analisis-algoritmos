@@ -119,7 +119,7 @@ int main (int argc, char* argv[])
                 printf("sys (Tiempo en acciónes de E/S)  %.10f s\n",  stime1 - stime0);
                 printf("CPU/Wall   %.10f %% \n",100.0 * (utime1 - utime0 + stime1 - stime0) / (wtime1 - wtime0));
                 printf("\n");
-                printf("%s\n", "========================================================================");
+                printf("%s\n", "========================================================================");*/
             }
             break;
 	case LINEAL:
