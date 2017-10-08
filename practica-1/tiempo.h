@@ -23,7 +23,9 @@
 void uswtime(double *usertime, double *systime, double *walltime);
 /* 
 Modo de Empleo:
-La función uswtime se puede emplear para medir los tiempos de ejecución de determinados segmentos de código en nuestros programas. De forma esquemática, el empleo de esta función constaría de los siguientes pasos:
+La función uswtime se puede emplear para medir los tiempos de ejecución de determinados 
+segmentos de código en nuestros programas. 
+De forma esquemática, el empleo de esta función constaría de los siguientes pasos:
 
     1.- Invocar a uswtime para fijar el instante a partir del cual se va a medir el tiempo.
 

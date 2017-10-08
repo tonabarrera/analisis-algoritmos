@@ -84,11 +84,12 @@ int main (int argc, char* argv[])
 	int i = 0;
     switch (algoritmo) {
         case BINARIO:
+            printf("Numero a buscar Tamaño de n Tiempo real ¿Encontrado?\n");
 			for(i = 0; i < 20; i++){
 				uswtime(&utime0, &stime0, &wtime0);
 				int res = busqueda_binaria(numeros, numeros_prueba[i], 0, n-1);
 	            uswtime(&utime1, &stime1, &wtime1);
-				printf("%s\n", "========================================================================");
+				/*printf("%s\n", "========================================================================");
 				printf("%s\n", "BUSQUEDA BINARIA");
 				printf("%s %d\n", "n = ", n);
 				printf("Numero buscado: %d, indice del numero: %d", numeros_prueba[i], res);
@@ -98,7 +99,9 @@ int main (int argc, char* argv[])
 				printf("sys (Tiempo en acciónes de E/S)  %.10f s\n",  stime1 - stime0);
 				printf("CPU/Wall   %.10f %% \n",100.0 * (utime1 - utime0 + stime1 - stime0) / (wtime1 - wtime0));
 				printf("\n");
-				printf("%s\n", "========================================================================");
+				printf("%s\n", "========================================================================");*/
+                // Esta es la linea que imprime todo de forma bonita
+                printf("%d %d %.10f %s\n", numeros_prueba[i], n, wtime1 - wtime0, res == -1 ? "No": "Si");
 			}
             break;
         case ARBOL:
@@ -119,10 +122,11 @@ int main (int argc, char* argv[])
                 printf("sys (Tiempo en acciónes de E/S)  %.10f s\n",  stime1 - stime0);
                 printf("CPU/Wall   %.10f %% \n",100.0 * (utime1 - utime0 + stime1 - stime0) / (wtime1 - wtime0));
                 printf("\n");
-                printf("%s\n", "========================================================================");*/
+                printf("%s\n", "========================================================================");
             }
             break;
 	case LINEAL:
+    printf("Numero a buscar Tamaño de n Tiempo real ¿Encontrado?\n");
 			for(i = 0; i < 20; i++){
 				uswtime(&utime0, &stime0, &wtime0);
 				int res = busqueda_lineal(numeros, numeros_prueba[i], n-1);
@@ -138,6 +142,8 @@ int main (int argc, char* argv[])
 				printf("CPU/Wall   %.10f %% \n",100.0 * (utime1 - utime0 + stime1 - stime0) / (wtime1 - wtime0));
 				printf("\n");
 				printf("%s\n", "========================================================================");
+                // Esta es la linea que imprime todo de forma bonita
+                printf("%d %d %.10f %s\n", numeros_prueba[i], n, wtime1 - wtime0, res == -1 ? "No": "Si");
 			}
             break;
         default:
