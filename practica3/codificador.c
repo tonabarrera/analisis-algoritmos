@@ -6,6 +6,7 @@
 #include <string.h>
 #include <stdlib.h>
 
+#define TAM_BLOQUE 777777
 ssize_t obtener_tam(char *);
 
 struct Nodo {
@@ -24,19 +25,20 @@ void mostrar_lista(struct Nodo *);
 void mostar_arbol(struct Nodo *);
 
 int main(){
-    int archivo = open("genetic.pdf", O_RDWR);
-    ssize_t tam = obtener_tam("genetic.pdf");
+    int archivo = open("art.pdf", O_RDWR);
+    ssize_t tam = obtener_tam("art.pdf");
     printf("El tam es %ld\n", tam);
-    unsigned char buffer[tam];
-    printf("%s\n", "AQUI");
-
+    unsigned char buffer[TAM_BLOQUE];
     unsigned long long frecuencias[256] = {0};
-    read(archivo, buffer, tam);
-
-    for (unsigned long long i = 0; i<tam; i++){
-        frecuencias[buffer[i]]++;
+    int leidos = 0;
+    ssize_t total = 0;
+    while ((leidos = read(archivo, buffer, TAM_BLOQUE)) > 0){
+        printf("leidos: %d\n", leidos);
+        for (unsigned long long i = 0; i<leidos; i++)
+            frecuencias[buffer[i]]++;
+        total += leidos;
     }
-
+    printf("TOTAL LEIDOS: %ld\n", total);
     struct Nodo *lista = NULL;
     for (int i = 0; i < 256; i++)
         if(frecuencias[i] != 0)
