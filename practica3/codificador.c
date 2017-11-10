@@ -24,14 +24,16 @@ void mostrar_lista(struct Nodo *);
 void mostar_arbol(struct Nodo *);
 
 int main(){
-    int archivo = open("prueba.txt", O_RDWR);
-    ssize_t tam = obtener_tam("prueba.txt");
+    int archivo = open("genetic.pdf", O_RDWR);
+    ssize_t tam = obtener_tam("genetic.pdf");
     printf("El tam es %ld\n", tam);
     unsigned char buffer[tam];
+    printf("%s\n", "AQUI");
+
     unsigned long long frecuencias[256] = {0};
     read(archivo, buffer, tam);
 
-    for (int i = 0; i<tam; i++){
+    for (unsigned long long i = 0; i<tam; i++){
         frecuencias[buffer[i]]++;
     }
 
@@ -40,20 +42,16 @@ int main(){
         if(frecuencias[i] != 0)
             lista = insertar_nodo(lista, frecuencias[i], i);
 
-
     struct Nodo *auxiliar2;
     struct Nodo *auxiliar;
     struct Nodo *indice = lista;
     int tomar = 1;
     struct Nodo *nuevo;
-    printf("%s\n", "Aqui");
     int clave = -1;
     while (indice != NULL) {
         if (tomar) {
-            mostrar_lista(lista);
             auxiliar = lista;
             auxiliar2 = lista->siguiente;
-            printf("Tomados %d %d\n", auxiliar->numero, auxiliar2->numero);
             nuevo = (struct Nodo*)malloc(sizeof(struct Nodo));
             nuevo->frecuencia = auxiliar->frecuencia + auxiliar2->frecuencia;
             nuevo->numero = clave--;
