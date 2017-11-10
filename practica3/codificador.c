@@ -20,9 +20,12 @@ struct Nodo {
 
 struct Nodo *insertar_nodo(struct Nodo *, unsigned long long, int);
 
+void mostrar_lista(struct Nodo *);
+void mostar_arbol(struct Nodo *);
+
 int main(){
-    int archivo = open("imagen.jpg", O_RDWR);
-    ssize_t tam = obtener_tam("imagen.jpg");
+    int archivo = open("prueba.txt", O_RDWR);
+    ssize_t tam = obtener_tam("prueba.txt");
     printf("El tam es %ld\n", tam);
     unsigned char buffer[tam];
     unsigned long long frecuencias[256] = {0};
@@ -32,43 +35,100 @@ int main(){
         frecuencias[buffer[i]]++;
     }
 
-    struct Nodo *lista = (struct Nodo*)malloc(sizeof(struct Nodo));
-    lista->frecuencia = frecuencias[0];
-    lista->numero = 0;
-    lista->siguiente = NULL;
-    for (int i = 1; i < 256; i++)
-        lista = insertar_nodo(lista, frecuencias[i], i);
-    
-    struct Nodo *auxiliar = lista;
-    while (auxiliar->siguiente != NULL){
-        printf("Lista ordenada frecuencia de %d es :%llu\n", auxiliar->numero, auxiliar->frecuencia);
-        auxiliar = auxiliar->siguiente;
-    }
+    struct Nodo *lista = NULL;
+    for (int i = 0; i < 256; i++)
+        if(frecuencias[i] != 0)
+            lista = insertar_nodo(lista, frecuencias[i], i);
+
 
     struct Nodo *auxiliar2;
+    struct Nodo *auxiliar;
     struct Nodo *indice = lista;
     int tomar = 1;
-    int i = 0;
-    while (i<256) {
+    struct Nodo *nuevo;
+    printf("%s\n", "Aqui");
+    int clave = -1;
+    while (indice != NULL) {
         if (tomar) {
+            mostrar_lista(lista);
             auxiliar = lista;
             auxiliar2 = lista->siguiente;
-            struct Nodo *nuevo = (struct Nodo*)malloc(sizeof(struct Nodo));
+            printf("Tomados %d %d\n", auxiliar->numero, auxiliar2->numero);
+            nuevo = (struct Nodo*)malloc(sizeof(struct Nodo));
             nuevo->frecuencia = auxiliar->frecuencia + auxiliar2->frecuencia;
+            nuevo->numero = clave--;
             nuevo->izq = auxiliar;
             nuevo->der = auxiliar2;
-            tomar = 0;
+            nuevo->valor_izq = '0';
+            nuevo->valor_der = '1';
+            nuevo->siguiente = NULL;
+            if (auxiliar2->siguiente == NULL) {
+                lista = nuevo;
+                break;
+            }
+            lista = auxiliar2->siguiente;
+            if (nuevo->frecuencia < lista->frecuencia) {
+                nuevo->siguiente = lista;
+                lista = nuevo;
+                tomar = 1;
+            } else {
+                tomar = 0;
+            }
+            indice = lista;
+        } else {
+            if (indice->siguiente == NULL) {
+                indice->siguiente = nuevo;
+                indice = lista;
+                tomar = 1;
+            }else if (nuevo->frecuencia < indice->siguiente->frecuencia) {
+                nuevo->siguiente = indice->siguiente;
+                indice->siguiente = nuevo;
+                tomar = 1;
+            } else {
+                indice = indice->siguiente;
+                if (indice->siguiente == NULL) {
+                    indice->siguiente = nuevo;
+                    indice = lista;
+                    tomar = 1;
+                }
+            }
         }
-        indice = indice->siguiente;
-        i-++;
     }
+    mostrar_lista(lista);
+    printf("%s\n", "IMPRIMIENDO ARBOL");
+    mostar_arbol(lista);
     return 0;
+}
+
+void mostrar_lista(struct Nodo *lista) {
+    printf("%s\n", "--------------------------IMPRIMIENDO LISTA----------------------------------");
+
+    struct Nodo *aux = lista;
+    while (aux != NULL) {
+        printf("Lista: frecuencia de %d es :%llu\n", aux->numero, aux->frecuencia);
+        aux = aux->siguiente;
+    }
+    printf("%s\n", "------------------------FINAL DE IMPRIMIR LISTA------------------------------");
+
+}
+
+void mostar_arbol(struct Nodo * arbol) {
+    if(arbol == NULL) {
+        return;
+    }
+    printf("%d ", arbol->numero);
+    mostar_arbol(arbol->izq);
+    mostar_arbol(arbol->der);
 }
 
 struct Nodo *insertar_nodo(struct Nodo *inicio, unsigned long long frecuencia, int numero) {
     struct Nodo *temp = (struct Nodo*)malloc(sizeof(struct Nodo));
     temp->numero = numero;
     temp->frecuencia = frecuencia;
+    if (inicio == NULL){
+        temp->siguiente = NULL;
+        return temp;
+    }
     if (frecuencia < inicio->frecuencia) {
         temp->siguiente = inicio;
         return temp;
