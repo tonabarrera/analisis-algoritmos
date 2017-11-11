@@ -6,7 +6,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#define TAM_BLOQUE 777777
+#define TAM_BLOQUE 256
 ssize_t obtener_tam(char *);
 
 struct Nodo {
@@ -26,7 +26,22 @@ void escribir_tabla(int, char *, int, FILE *);
 void mostrar_lista(struct Nodo *);
 void mostar_arbol(struct Nodo *, char *, int, FILE *);
 
+int bits_in_buffer = 0;
+unsigned char buffer_salida[TAM_BLOQUE];
+int write_bit(int f, int bit) {
+    if (bit)
+        buffer_salida[bits_in_buffer >> 3] |= (0x1 << (7 - bits_in_buffer % 8));
+    ++bits_in_buffer;
+    if (bits_in_buffer == TAM_BLOQUE << 3) {
+        ssize_t tam = write(f, buffer_salida, TAM_BLOQUE);
+        bits_in_buffer = 0;
+        memset(buffer_salida, 0, TAM_BLOQUE);
+    }
+    return 1;
+}
+
 int main(){
+    memset(buffer_salida, 0, TAM_BLOQUE);
     int archivo = open("archivo.pdf", O_RDONLY);
     unsigned char buffer[TAM_BLOQUE];
     unsigned long long frecuencias[256] = {0};
@@ -103,15 +118,25 @@ int main(){
     char camino[2000];
     FILE *f;
     f = fopen("tabla_codificacion.txt", "w");
+    memset(camino, '\0', sizeof(camino));
     mostar_arbol(lista, camino, 0, f);
     fclose(f);
     archivo = open("archivo.pdf", O_RDONLY);
     int archivo2 = open("comprimido", O_WRONLY|O_CREAT|O_TRUNC, 0644);
+    int algo = 0;
     while ((leidos = read(archivo, buffer, TAM_BLOQUE)) > 0){
         for (unsigned long long i = 0; i<leidos; i++){
-            printf("%s ", VALORES[buffer[i]]);
-            write(archivo2, &VALORES[buffer[i]], sizeof(buffer[i]));
+            //printf("%s %ld \n", VALORES[buffer[i]], strlen(VALORES[buffer[i]]));
+            algo += strlen(VALORES[buffer[i]]);
+            for (int j = 0; j< strlen(VALORES[buffer[i]]); j++){
+                write_bit(archivo2, VALORES[buffer[i]][j]-'0');
+            }
         }
+    }
+    printf("%s %d\n", "SUMAN: ", algo);
+    if (bits_in_buffer < TAM_BLOQUE << 3){
+        printf("%s %d %s\n", "Faltaron escribir", bits_in_buffer, buffer_salida);
+        write(archivo2, buffer_salida, (bits_in_buffer / 8)+1);
     }
     close(archivo2);
     close(archivo);
@@ -134,17 +159,24 @@ void mostar_arbol(struct Nodo * arbol, char *camino, int long_camino, FILE *arch
     if(arbol->izq== NULL && arbol->der == NULL) {
         return;
     }
-    camino[long_camino++] = '0';
-    mostar_arbol(arbol->izq, camino, long_camino, archivo);
+    char camino_izq[200];
+    char camino_der[200];
+     memset(camino_izq, '\0', sizeof(camino_izq));
+     memset(camino_der, '\0', sizeof(camino_der));
+    strcpy(camino_izq, camino);
+    strcpy(camino_der, camino);
+    camino_izq[long_camino++] = '0';
+    camino_der[long_camino-1] = '1';
+    mostar_arbol(arbol->izq, camino_izq, long_camino, archivo);
     if (arbol->izq->izq == NULL && arbol->izq->der == NULL){
-        //printf("%d %s\n", arbol->izq->numero, camino);
-        escribir_tabla(arbol->izq->numero, camino, long_camino, archivo);
+        //printf("%d %s %ld %d\n", arbol->izq->numero, camino_izq, strlen(camino_izq), long_camino-1);
+        escribir_tabla(arbol->izq->numero, camino_izq, long_camino, archivo);
     }
-    camino[long_camino-1] = '1';
-    mostar_arbol(arbol->der, camino, long_camino, archivo);
+    //camino[long_camino-1] = '1';
+    mostar_arbol(arbol->der, camino_der, long_camino, archivo);
     if (arbol->der->izq == NULL && arbol->der->der == NULL){
-        //printf("%d %s\n", arbol->der->numero, camino);
-        escribir_tabla(arbol->der->numero, camino, long_camino, archivo);
+        //printf("%d %s %ld %d\n", arbol->der->numero, camino_der, strlen(camino_der), long_camino-1);
+        escribir_tabla(arbol->der->numero, camino_der, long_camino, archivo);
     }
         
     return;
