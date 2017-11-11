@@ -1,5 +1,5 @@
 #include <fcntl.h> // open
-#include <unistd.h> // read
+#include <unistd.h> // read, write
 #include <sys/stat.h> // stat
 #include <sys/types.h>
 #include <stdio.h>
@@ -19,25 +19,27 @@ struct Nodo {
     struct Nodo *siguiente;
 };
 
-struct Nodo *insertar_nodo(struct Nodo *, unsigned long long, int);
+const unsigned char *VALORES[256]; 
 
+struct Nodo *insertar_nodo(struct Nodo *, unsigned long long, int);
+void escribir_tabla(int, char *, int, FILE *);
 void mostrar_lista(struct Nodo *);
-void mostar_arbol(struct Nodo *);
+void mostar_arbol(struct Nodo *, char *, int, FILE *);
 
 int main(){
-    int archivo = open("art.pdf", O_RDWR);
-    ssize_t tam = obtener_tam("art.pdf");
-    printf("El tam es %ld\n", tam);
+    int archivo = open("archivo.pdf", O_RDONLY);
     unsigned char buffer[TAM_BLOQUE];
     unsigned long long frecuencias[256] = {0};
     int leidos = 0;
     ssize_t total = 0;
     while ((leidos = read(archivo, buffer, TAM_BLOQUE)) > 0){
-        printf("leidos: %d\n", leidos);
+        //printf("leidos: %d\n", leidos);
         for (unsigned long long i = 0; i<leidos; i++)
             frecuencias[buffer[i]]++;
         total += leidos;
     }
+    close(archivo);
+
     printf("TOTAL LEIDOS: %ld\n", total);
     struct Nodo *lista = NULL;
     for (int i = 0; i < 256; i++)
@@ -50,6 +52,8 @@ int main(){
     int tomar = 1;
     struct Nodo *nuevo;
     int clave = -1;
+    //mostrar_lista(lista);
+
     while (indice != NULL) {
         if (tomar) {
             auxiliar = lista;
@@ -94,9 +98,23 @@ int main(){
             }
         }
     }
-    mostrar_lista(lista);
-    printf("%s\n", "IMPRIMIENDO ARBOL");
-    mostar_arbol(lista);
+    //mostrar_lista(lista);
+    //printf("%s\n", "IMPRIMIENDO ARBOL");
+    char camino[2000];
+    FILE *f;
+    f = fopen("tabla_codificacion.txt", "w");
+    mostar_arbol(lista, camino, 0, f);
+    fclose(f);
+    archivo = open("archivo.pdf", O_RDONLY);
+    int archivo2 = open("comprimido", O_WRONLY|O_CREAT|O_TRUNC, 0644);
+    while ((leidos = read(archivo, buffer, TAM_BLOQUE)) > 0){
+        for (unsigned long long i = 0; i<leidos; i++){
+            printf("%s ", VALORES[buffer[i]]);
+            write(archivo2, &VALORES[buffer[i]], sizeof(buffer[i]));
+        }
+    }
+    close(archivo2);
+    close(archivo);
     return 0;
 }
 
@@ -112,13 +130,33 @@ void mostrar_lista(struct Nodo *lista) {
 
 }
 
-void mostar_arbol(struct Nodo * arbol) {
-    if(arbol == NULL) {
+void mostar_arbol(struct Nodo * arbol, char *camino, int long_camino, FILE *archivo) {
+    if(arbol->izq== NULL && arbol->der == NULL) {
         return;
     }
-    printf("%d ", arbol->numero);
-    mostar_arbol(arbol->izq);
-    mostar_arbol(arbol->der);
+    camino[long_camino++] = '0';
+    mostar_arbol(arbol->izq, camino, long_camino, archivo);
+    if (arbol->izq->izq == NULL && arbol->izq->der == NULL){
+        //printf("%d %s\n", arbol->izq->numero, camino);
+        escribir_tabla(arbol->izq->numero, camino, long_camino, archivo);
+    }
+    camino[long_camino-1] = '1';
+    mostar_arbol(arbol->der, camino, long_camino, archivo);
+    if (arbol->der->izq == NULL && arbol->der->der == NULL){
+        //printf("%d %s\n", arbol->der->numero, camino);
+        escribir_tabla(arbol->der->numero, camino, long_camino, archivo);
+    }
+        
+    return;
+}
+
+void escribir_tabla(int numero, char *camino, int long_camino, FILE *archivo) {
+    char str[5];
+    char *string = malloc(sizeof(char) * long_camino);
+    sprintf(str, "%d", numero);
+    strcpy(string, camino);
+    VALORES[numero] = string;
+    fprintf(archivo, "%d %s\n", numero, camino);
 }
 
 struct Nodo *insertar_nodo(struct Nodo *inicio, unsigned long long frecuencia, int numero) {
