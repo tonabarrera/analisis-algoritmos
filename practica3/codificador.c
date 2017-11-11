@@ -1,50 +1,191 @@
-#include <codificador.h>
+#include "codificador.h"
 
-const unsigned char *VALORES[257]; 
-
-int bits_buffer = 0;
-unsigned char buffer_salida[TAM_BLOQUE];
-int escribir_bit(int f, int bit) {
-    if (bit)
-        buffer_salida[bits_buffer >> 3] |= (0x1 << (7 - bits_buffer % 8));
-    ++bits_buffer;
-    if (bits_buffer == TAM_BLOQUE << 3) {
-        ssize_t tam = write(f, buffer_salida, TAM_BLOQUE);
-        bits_buffer = 0;
-        memset(buffer_salida, 0, TAM_BLOQUE);
-    }
-    return 1;
+void inicializar_variables() {
+    bits_buffer = 0;
+    memset(buffer_salida, 0, TAM_MAX_BLOQUE);
 }
 
-int main(){
-    memset(buffer_salida, 0, TAM_BLOQUE);
-    int archivo = open("prueba.txt", O_RDONLY);
-    unsigned char buffer[TAM_BLOQUE];
+int comprimir_archivo(char *nombre_archivo){
+    int archivo = open(nombre_archivo, O_RDONLY);
+    unsigned char buffer_entrada[TAM_MAX_BLOQUE];
+    /*
+    * Arreglo donde contaremos las frecuencias de nuestros 256
+    * simbolos mas un simbolo para identificar el final de
+    * archivo en el archivo comprimido
+    */
     unsigned long long frecuencias[257] = {0};
-    frecuencias[256] = 1; // PARA EL FINAL DEL ARCHIVO
+
+    // El ultimo elemento es el de final de archivo
+    frecuencias[256] = 1;
+
     int leidos = 0;
     ssize_t total = 0;
-    while ((leidos = read(archivo, buffer, TAM_BLOQUE)) > 0){
-        //printf("leidos: %d\n", leidos);
+
+    //Leemos el archivo por bloques
+    while ((leidos = read(archivo, buffer_entrada, TAM_MAX_BLOQUE)) > 0){
+        // Contamos las frecuencias de los bytes leidos en el bloque
         for (unsigned long long i = 0; i<leidos; i++)
-            frecuencias[buffer[i]]++;
+            frecuencias[buffer_entrada[i]]++;
         total += leidos;
     }
     close(archivo);
 
-    printf("TOTAL LEIDOS: %ld\n", total);
+    printf("TOTAL DE BYTES LEIDOS: %ld\n", total);
+    
+    // LLenamos nuestra lista
     struct Nodo *lista = NULL;
     for (int i = 0; i < 257; i++)
         if(frecuencias[i] != 0)
-            lista = insertar_nodo(lista, frecuencias[i], i);
+            lista = insertar_nodo_lista(lista, frecuencias[i], i);
 
+    lista = crear_arbol(lista);
+    construir_tabla(lista);
+    crear_comprimido(nombre_archivo);
+    return 0;
+}
+
+void construir_tabla(struct Nodo *lista) {
+    char camino[2000];
+    FILE *f;
+    f = fopen("tabla_codificacion.txt", "w");
+    memset(camino, '\0', sizeof(camino));
+    llenar_tabla(lista, camino, 0, f);
+    fclose(f);
+}
+
+
+void crear_comprimido(char *nombre_archivo) {
+    int archivo = open(nombre_archivo, O_RDONLY);
+    int f_comprimido = open("comprimido", O_WRONLY|O_CREAT|O_TRUNC, 0644);
+    int leidos = 0;
+    unsigned char buffer[TAM_MAX_BLOQUE];
+    while ((leidos = read(archivo, buffer, TAM_MAX_BLOQUE)) > 0){
+        for (unsigned long long i = 0; i < leidos; i++)
+            for (int j = 0; j< strlen(VALORES[buffer[i]]); j++)
+                escribir_bit(f_comprimido, VALORES[buffer[i]][j]-'0');
+    }
+    /* 
+    * Metemos la secuencia de bits que terminan el archivo
+    * al buffer antes de escribirlo en el archivo
+    */
+    for (int j = 0; j< strlen(VALORES[256]); j++)
+        escribir_bit(f_comprimido, VALORES[256][j]-'0');
+    
+    // Metemos los bits que no llenaron un buffer
+    if (bits_buffer < TAM_MAX_BLOQUE << 3)
+        write(f_comprimido, buffer_salida, (bits_buffer / 8)+1);
+    
+    close(f_comprimido);
+    close(archivo);
+    printf("%s\n", "Se creo el archivo comprimido");
+}
+
+void mostrar_lista(struct Nodo *lista) {
+    printf("%s\n", "-------------IMPRIMIENDO LISTA---------------");
+
+    struct Nodo *aux = lista;
+    while (aux != NULL) {
+        printf("Frecuencia de %d:%llu\n", aux->numero, aux->frecuencia);
+        aux = aux->siguiente;
+    }
+
+    printf("%s\n", "----------FINAL DE IMPRIMIR LISTA-------------");
+}
+
+void llenar_tabla(struct Nodo *arbol, char *camino, int longitud, FILE *f) {
+    if(arbol->izq== NULL && arbol->der == NULL) {
+        return;
+    }
+    char camino_izq[200];
+    char camino_der[200];
+    memset(camino_izq, '\0', sizeof(camino_izq));
+    memset(camino_der, '\0', sizeof(camino_der));
+    strcpy(camino_izq, camino);
+    strcpy(camino_der, camino);
+    camino_izq[longitud] = '0';
+    camino_der[longitud++] = '1';
+
+    llenar_tabla(arbol->izq, camino_izq, longitud, f);
+    if (arbol->izq->izq == NULL && arbol->izq->der == NULL)
+        agregar_simbolo_tabla(arbol->izq->numero, camino_izq, longitud, f);
+    
+    llenar_tabla(arbol->der, camino_der, longitud, f);
+    if (arbol->der->izq == NULL && arbol->der->der == NULL)
+        agregar_simbolo_tabla(arbol->der->numero, camino_der, longitud, f);
+}
+
+void agregar_simbolo_tabla(int numero, char *secuencia, int longitud, FILE *f) {
+    char *string = malloc(sizeof(char) * longitud);
+    strcpy(string, secuencia);
+    VALORES[numero] = string;
+    fprintf(f, "%d %s\n", numero, secuencia);
+}
+
+struct Nodo *insertar_nodo_lista(struct Nodo *inicio, unsigned long long frecuencia, int numero) {
+    struct Nodo *temp = (struct Nodo*)malloc(sizeof(struct Nodo));
+    temp->numero = numero;
+    temp->frecuencia = frecuencia;
+
+    if (inicio == NULL){
+        temp->siguiente = NULL;
+        return temp;
+    }
+    if (frecuencia < inicio->frecuencia) {
+        temp->siguiente = inicio;
+        return temp;
+    }
+
+    struct Nodo *prev = inicio;
+    struct Nodo *aux = inicio->siguiente;
+    while(aux != NULL && (aux->frecuencia < frecuencia)) {
+        prev = aux;
+        aux = aux->siguiente;
+    }
+    
+    temp->siguiente = aux;
+    prev->siguiente = temp;
+    return inicio;
+}
+
+void escribir_bit(int f, int bit) {
+    /*Si recibimos un uno lo ponemos y aumentamos nuestro
+    * contador de bits, de lo contrario solo se aumenta
+    * el numero de bits
+    */
+    if (bit){
+        /*
+        * Corrimiento hacia la derecha para ubicarnos en el byte
+        * correcto, compuerta or para que se pueda agregar el bit sin
+        * modificar los bits que ya estaban
+        */
+        buffer_salida[bits_buffer >> 3] |= (0x1 << (7 - bits_buffer % 8));
+    }
+    bits_buffer++;
+    /* 
+    * Si ya llenamos el buffer lo escribimos, corrimiento a la izq
+    * para comparar bits y no bytes, limpiamos el buffer y
+    * reiniciamos el contador de bits
+    */
+    if (bits_buffer == TAM_MAX_BLOQUE << 3) {
+        write(f, buffer_salida, TAM_MAX_BLOQUE);
+        inicializar_variables();
+    }
+}
+
+struct Nodo *crear_arbol(struct Nodo *lista) {
+    // Nodos mas pequeños dentro de la lista
     struct Nodo *auxiliar2;
     struct Nodo *auxiliar;
+
+    // Nodo auxiliar para iterar la lista
     struct Nodo *indice = lista;
     int tomar = 1;
+
+    // Nodo auxiliar para crear nodos internos
     struct Nodo *nuevo;
+
+    // Clave para identificar un nodo interno
     int clave = -1;
-    //mostrar_lista(lista);
 
     while (indice != NULL) {
         if (tomar) {
@@ -88,102 +229,5 @@ int main(){
             }
         }
     }
-    //mostrar_lista(lista);
-    //printf("%s\n", "IMPRIMIENDO ARBOL");
-    char camino[2000];
-    FILE *f;
-    f = fopen("tabla_codificacion.txt", "w");
-    memset(camino, '\0', sizeof(camino));
-    mostar_arbol(lista, camino, 0, f);
-    fclose(f);
-    archivo = open("prueba.txt", O_RDONLY);
-    int archivo2 = open("comprimido", O_WRONLY|O_CREAT|O_TRUNC, 0644);
-    int algo = 0;
-    while ((leidos = read(archivo, buffer, TAM_BLOQUE)) > 0){
-        for (unsigned long long i = 0; i<leidos; i++){
-            algo += strlen(VALORES[buffer[i]]);
-            for (int j = 0; j< strlen(VALORES[buffer[i]]); j++){
-                escribir_bit(archivo2, VALORES[buffer[i]][j]-'0');
-            }
-        }
-    }
-    // METEMOS EL CARACTER FINAL
-    for (int j = 0; j< strlen(VALORES[256]); j++){
-                escribir_bit(archivo2, VALORES[256][j]-'0');
-    }
-    printf("%s %d\n", "SUMAN: ", algo);
-    if (bits_buffer < TAM_BLOQUE << 3){
-        printf("%s %d %s\n", "Faltaron escribir", bits_buffer, buffer_salida);
-        write(archivo2, buffer_salida, (bits_buffer / 8)+1);
-    }
-    close(archivo2);
-    close(archivo);
-    return 0;
-}
-
-void mostrar_lista(struct Nodo *lista) {
-    printf("%s\n", "-------------IMPRIMIENDO LISTA---------------");
-
-    struct Nodo *aux = lista;
-    while (aux != NULL) {
-        printf("Frecuencia de %d:%llu\n", aux->numero, aux->frecuencia);
-        aux = aux->siguiente;
-    }
-
-    printf("%s\n", "----------FINAL DE IMPRIMIR LISTA-------------");
-}
-
-void construir_tabla(struct Nodo *arbol, char *camino, int longitud, FILE *f) {
-    if(arbol->izq== NULL && arbol->der == NULL) {
-        return;
-    }
-    char camino_izq[200];
-    char camino_der[200];
-    memset(camino_izq, '\0', sizeof(camino_izq));
-    memset(camino_der, '\0', sizeof(camino_der));
-    strcpy(camino_izq, camino);
-    strcpy(camino_der, camino);
-    camino_izq[longitud] = '0';
-    camino_der[longitud++] = '1';
-
-    construir_tabla(arbol->izq, camino_izq, longitud, f);
-    if (arbol->izq->izq == NULL && arbol->izq->der == NULL)
-        escribir_tabla(arbol->izq->numero, camino_izq, longitud, f);
-    
-    construir_tabla(arbol->der, camino_der, longitud, f);
-    if (arbol->der->izq == NULL && arbol->der->der == NULL)
-        escribir_tabla(arbol->der->numero, camino_der, longitud, f);
-}
-
-void agregar_simbolo_tabla(int numero, char *secuencia, int longitud, FILE *f) {
-    char *string = malloc(sizeof(char) * longitud);
-    strcpy(string, camino);
-    VALORES[numero] = string;
-    fprintf(f, "%d %s\n", numero, camino);
-}
-
-struct Nodo *insertar_nodo_lista(struct Nodo *inicio, unsigned long long frecuencia, int numero) {
-    struct Nodo *temp = (struct Nodo*)malloc(sizeof(struct Nodo));
-    temp->numero = numero;
-    temp->frecuencia = frecuencia;
-
-    if (inicio == NULL){
-        temp->siguiente = NULL;
-        return temp;
-    }
-    if (frecuencia < inicio->frecuencia) {
-        temp->siguiente = inicio;
-        return temp;
-    }
-
-    struct Nodo *prev = inicio;
-    struct Nodo *aux = inicio->siguiente;
-    while(aux != NULL && (aux->frecuencia < frecuencia)) {
-        prev = aux;
-        aux = aux->siguiente;
-    }
-    
-    temp->siguiente = aux;
-    prev->siguiente = temp;
-    return inicio;
+    return lista;
 }

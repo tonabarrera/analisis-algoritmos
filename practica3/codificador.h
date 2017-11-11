@@ -13,6 +13,9 @@
 * Tam. maximo de bytes que se van a leer y escribir
 */
 #define TAM_MAX_BLOQUE 256
+int bits_buffer;
+unsigned char buffer_salida[TAM_MAX_BLOQUE];
+const unsigned char *VALORES[257];
 
 /*
 * Estructura que funge como nodo de lista, arbol, madre y padre a la vez
@@ -41,15 +44,16 @@ struct Nodo *insertar_nodo_lista(struct Nodo *, unsigned long long, int);
 /*
 * Imprime una lista, recibe como parametro la lista e imprimir 
 */
-void mostrar_lista(struct Nodo *lista);
+void mostrar_lista(struct Nodo *);
 
+void construir_tabla(struct Nodo *);
 /*
 * Construye la tabla de simbolos recorriendo el arbol 
 * en preorden, un nodo raiz, la secuencia de bits, 
 * la longitud de la secuencia de bits y un apuntador
 * a un archivo donde se escribe la tabla
 */
-void construir_tabla(struct Nodo *, char *, int, FILE *);
+void llenar_tabla(struct Nodo *, char *, int, FILE *);
 
 /*
 * Escribe un simbolo y su secuencia de bits en un archivo
@@ -59,4 +63,11 @@ void construir_tabla(struct Nodo *, char *, int, FILE *);
 */
 void agregar_simbolo_tabla(int, char *, int, FILE *);
 
+/*
+*
+*/
+struct Nodo *crear_arbol(struct Nodo *);
+void escribir_bit(int, int);
+int comprimir_archivo(char *);
+void crear_comprimido(char *);
 #endif
