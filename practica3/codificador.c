@@ -19,7 +19,7 @@ struct Nodo {
     struct Nodo *siguiente;
 };
 
-const unsigned char *VALORES[256]; 
+const unsigned char *VALORES[257]; 
 
 struct Nodo *insertar_nodo(struct Nodo *, unsigned long long, int);
 void escribir_tabla(int, char *, int, FILE *);
@@ -42,9 +42,10 @@ int write_bit(int f, int bit) {
 
 int main(){
     memset(buffer_salida, 0, TAM_BLOQUE);
-    int archivo = open("archivo.pdf", O_RDONLY);
+    int archivo = open("prueba.txt", O_RDONLY);
     unsigned char buffer[TAM_BLOQUE];
-    unsigned long long frecuencias[256] = {0};
+    unsigned long long frecuencias[257] = {0};
+    frecuencias[256] = 1; // PARA EL FINAL DEL ARCHIVO
     int leidos = 0;
     ssize_t total = 0;
     while ((leidos = read(archivo, buffer, TAM_BLOQUE)) > 0){
@@ -57,7 +58,7 @@ int main(){
 
     printf("TOTAL LEIDOS: %ld\n", total);
     struct Nodo *lista = NULL;
-    for (int i = 0; i < 256; i++)
+    for (int i = 0; i < 257; i++)
         if(frecuencias[i] != 0)
             lista = insertar_nodo(lista, frecuencias[i], i);
 
@@ -121,7 +122,7 @@ int main(){
     memset(camino, '\0', sizeof(camino));
     mostar_arbol(lista, camino, 0, f);
     fclose(f);
-    archivo = open("archivo.pdf", O_RDONLY);
+    archivo = open("prueba.txt", O_RDONLY);
     int archivo2 = open("comprimido", O_WRONLY|O_CREAT|O_TRUNC, 0644);
     int algo = 0;
     while ((leidos = read(archivo, buffer, TAM_BLOQUE)) > 0){
@@ -132,6 +133,10 @@ int main(){
                 write_bit(archivo2, VALORES[buffer[i]][j]-'0');
             }
         }
+    }
+    // METEMOS EL CARACTER FINAL
+    for (int j = 0; j< strlen(VALORES[256]); j++){
+                write_bit(archivo2, VALORES[256][j]-'0');
     }
     printf("%s %d\n", "SUMAN: ", algo);
     if (bits_in_buffer < TAM_BLOQUE << 3){
