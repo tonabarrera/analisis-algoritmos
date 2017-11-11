@@ -1,40 +1,16 @@
-#include <fcntl.h> // open
-#include <unistd.h> // read, write
-#include <sys/stat.h> // stat
-#include <sys/types.h>
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-
-#define TAM_BLOQUE 256
-ssize_t obtener_tam(char *);
-
-struct Nodo {
-    unsigned long long frecuencia;
-    int numero;
-    struct Nodo *izq;
-    struct Nodo *der;
-    char valor_izq;
-    char valor_der;
-    struct Nodo *siguiente;
-};
+#include <codificador.h>
 
 const unsigned char *VALORES[257]; 
 
-struct Nodo *insertar_nodo(struct Nodo *, unsigned long long, int);
-void escribir_tabla(int, char *, int, FILE *);
-void mostrar_lista(struct Nodo *);
-void mostar_arbol(struct Nodo *, char *, int, FILE *);
-
-int bits_in_buffer = 0;
+int bits_buffer = 0;
 unsigned char buffer_salida[TAM_BLOQUE];
-int write_bit(int f, int bit) {
+int escribir_bit(int f, int bit) {
     if (bit)
-        buffer_salida[bits_in_buffer >> 3] |= (0x1 << (7 - bits_in_buffer % 8));
-    ++bits_in_buffer;
-    if (bits_in_buffer == TAM_BLOQUE << 3) {
+        buffer_salida[bits_buffer >> 3] |= (0x1 << (7 - bits_buffer % 8));
+    ++bits_buffer;
+    if (bits_buffer == TAM_BLOQUE << 3) {
         ssize_t tam = write(f, buffer_salida, TAM_BLOQUE);
-        bits_in_buffer = 0;
+        bits_buffer = 0;
         memset(buffer_salida, 0, TAM_BLOQUE);
     }
     return 1;
@@ -79,8 +55,6 @@ int main(){
             nuevo->numero = clave--;
             nuevo->izq = auxiliar;
             nuevo->der = auxiliar2;
-            nuevo->valor_izq = '0';
-            nuevo->valor_der = '1';
             nuevo->siguiente = NULL;
             if (auxiliar2->siguiente == NULL) {
                 lista = nuevo;
@@ -127,21 +101,20 @@ int main(){
     int algo = 0;
     while ((leidos = read(archivo, buffer, TAM_BLOQUE)) > 0){
         for (unsigned long long i = 0; i<leidos; i++){
-            //printf("%s %ld \n", VALORES[buffer[i]], strlen(VALORES[buffer[i]]));
             algo += strlen(VALORES[buffer[i]]);
             for (int j = 0; j< strlen(VALORES[buffer[i]]); j++){
-                write_bit(archivo2, VALORES[buffer[i]][j]-'0');
+                escribir_bit(archivo2, VALORES[buffer[i]][j]-'0');
             }
         }
     }
     // METEMOS EL CARACTER FINAL
     for (int j = 0; j< strlen(VALORES[256]); j++){
-                write_bit(archivo2, VALORES[256][j]-'0');
+                escribir_bit(archivo2, VALORES[256][j]-'0');
     }
     printf("%s %d\n", "SUMAN: ", algo);
-    if (bits_in_buffer < TAM_BLOQUE << 3){
-        printf("%s %d %s\n", "Faltaron escribir", bits_in_buffer, buffer_salida);
-        write(archivo2, buffer_salida, (bits_in_buffer / 8)+1);
+    if (bits_buffer < TAM_BLOQUE << 3){
+        printf("%s %d %s\n", "Faltaron escribir", bits_buffer, buffer_salida);
+        write(archivo2, buffer_salida, (bits_buffer / 8)+1);
     }
     close(archivo2);
     close(archivo);
@@ -149,57 +122,51 @@ int main(){
 }
 
 void mostrar_lista(struct Nodo *lista) {
-    printf("%s\n", "--------------------------IMPRIMIENDO LISTA----------------------------------");
+    printf("%s\n", "-------------IMPRIMIENDO LISTA---------------");
 
     struct Nodo *aux = lista;
     while (aux != NULL) {
-        printf("Lista: frecuencia de %d es :%llu\n", aux->numero, aux->frecuencia);
+        printf("Frecuencia de %d:%llu\n", aux->numero, aux->frecuencia);
         aux = aux->siguiente;
     }
-    printf("%s\n", "------------------------FINAL DE IMPRIMIR LISTA------------------------------");
 
+    printf("%s\n", "----------FINAL DE IMPRIMIR LISTA-------------");
 }
 
-void mostar_arbol(struct Nodo * arbol, char *camino, int long_camino, FILE *archivo) {
+void construir_tabla(struct Nodo *arbol, char *camino, int longitud, FILE *f) {
     if(arbol->izq== NULL && arbol->der == NULL) {
         return;
     }
     char camino_izq[200];
     char camino_der[200];
-     memset(camino_izq, '\0', sizeof(camino_izq));
-     memset(camino_der, '\0', sizeof(camino_der));
+    memset(camino_izq, '\0', sizeof(camino_izq));
+    memset(camino_der, '\0', sizeof(camino_der));
     strcpy(camino_izq, camino);
     strcpy(camino_der, camino);
-    camino_izq[long_camino++] = '0';
-    camino_der[long_camino-1] = '1';
-    mostar_arbol(arbol->izq, camino_izq, long_camino, archivo);
-    if (arbol->izq->izq == NULL && arbol->izq->der == NULL){
-        //printf("%d %s %ld %d\n", arbol->izq->numero, camino_izq, strlen(camino_izq), long_camino-1);
-        escribir_tabla(arbol->izq->numero, camino_izq, long_camino, archivo);
-    }
-    //camino[long_camino-1] = '1';
-    mostar_arbol(arbol->der, camino_der, long_camino, archivo);
-    if (arbol->der->izq == NULL && arbol->der->der == NULL){
-        //printf("%d %s %ld %d\n", arbol->der->numero, camino_der, strlen(camino_der), long_camino-1);
-        escribir_tabla(arbol->der->numero, camino_der, long_camino, archivo);
-    }
-        
-    return;
+    camino_izq[longitud] = '0';
+    camino_der[longitud++] = '1';
+
+    construir_tabla(arbol->izq, camino_izq, longitud, f);
+    if (arbol->izq->izq == NULL && arbol->izq->der == NULL)
+        escribir_tabla(arbol->izq->numero, camino_izq, longitud, f);
+    
+    construir_tabla(arbol->der, camino_der, longitud, f);
+    if (arbol->der->izq == NULL && arbol->der->der == NULL)
+        escribir_tabla(arbol->der->numero, camino_der, longitud, f);
 }
 
-void escribir_tabla(int numero, char *camino, int long_camino, FILE *archivo) {
-    char str[5];
-    char *string = malloc(sizeof(char) * long_camino);
-    sprintf(str, "%d", numero);
+void agregar_simbolo_tabla(int numero, char *secuencia, int longitud, FILE *f) {
+    char *string = malloc(sizeof(char) * longitud);
     strcpy(string, camino);
     VALORES[numero] = string;
-    fprintf(archivo, "%d %s\n", numero, camino);
+    fprintf(f, "%d %s\n", numero, camino);
 }
 
-struct Nodo *insertar_nodo(struct Nodo *inicio, unsigned long long frecuencia, int numero) {
+struct Nodo *insertar_nodo_lista(struct Nodo *inicio, unsigned long long frecuencia, int numero) {
     struct Nodo *temp = (struct Nodo*)malloc(sizeof(struct Nodo));
     temp->numero = numero;
     temp->frecuencia = frecuencia;
+
     if (inicio == NULL){
         temp->siguiente = NULL;
         return temp;
@@ -220,9 +187,3 @@ struct Nodo *insertar_nodo(struct Nodo *inicio, unsigned long long frecuencia, i
     prev->siguiente = temp;
     return inicio;
 }
-
-ssize_t obtener_tam(char *archivo) {
-    struct stat datos_archivo;
-    stat(archivo, &datos_archivo);
-    return datos_archivo.st_size;
-} 
