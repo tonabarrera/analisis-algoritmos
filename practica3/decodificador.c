@@ -152,13 +152,11 @@ int llenar_info_archivo(struct info_archivo * info, char * cadena){
         info -> extension = (char *)malloc(10 * sizeof(char));
         info -> tam = 0;
 
-        int i = 0, j = 0;
-        char caracter;
+        int i = 0, j = 0, k = 0;
         while(1){
             if(cadena[i] == '.')
                 break;
-            caracter = cadena[i];
-            strcat(info -> nombre, &caracter);
+            info -> nombre[k++] = cadena[i];
             i++;
         }
         i++;
@@ -167,13 +165,12 @@ int llenar_info_archivo(struct info_archivo * info, char * cadena){
             if(cadena[i] == ' ')
                 break;
             info -> extension[j++] = cadena[i];
-            printf("%s\n", info -> extension);
             i++;
         }
         i++;
 
         info -> tam = atoi(cadena + i);
-        printf("nombre: %s, extension: %s, tam: %ld\n", info -> nombre, info -> extension, info -> tam);
+        //printf("nombre: %s, extension: %s, tam: %ld\n", info -> nombre, info -> extension, info -> tam);
 
         return 0;
 }
