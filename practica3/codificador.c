@@ -5,6 +5,12 @@ void inicializar_variables() {
     memset(buffer_salida, 0, TAM_MAX_BLOQUE);
 }
 
+ssize_t obtener_tam_archivo(char *archivo) {
+    struct stat datos_archivo;
+    stat(archivo, &datos_archivo);
+    return datos_archivo.st_size;
+}
+
 int comprimir_archivo(char *nombre_archivo){
     int archivo = open(nombre_archivo, O_RDONLY);
     unsigned char buffer_entrada[TAM_MAX_BLOQUE];
@@ -39,15 +45,17 @@ int comprimir_archivo(char *nombre_archivo){
             lista = insertar_nodo_lista(lista, frecuencias[i], i);
 
     lista = crear_arbol(lista);
-    construir_tabla(lista);
+    construir_tabla(lista, nombre_archivo);
+    //printf("%s\n", "Termino de construir_tabla");
     crear_comprimido(nombre_archivo);
     return 0;
 }
 
-void construir_tabla(struct Nodo *lista) {
+void construir_tabla(struct Nodo *lista, char *archivo) {
     char camino[2000];
     FILE *f;
     f = fopen("tabla_codificacion.txt", "w");
+    fprintf(f, "%s %lld\n", archivo, obtener_tam_archivo(archivo));
     memset(camino, '\0', sizeof(camino));
     llenar_tabla(lista, camino, 0, f);
     fclose(f);

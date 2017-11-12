@@ -46,7 +46,7 @@ struct Nodo *insertar_nodo_lista(struct Nodo *, unsigned long long, int);
 */
 void mostrar_lista(struct Nodo *);
 
-void construir_tabla(struct Nodo *);
+void construir_tabla(struct Nodo *, char *);
 /*
 * Construye la tabla de simbolos recorriendo el arbol 
 * en preorden, un nodo raiz, la secuencia de bits, 
@@ -63,9 +63,7 @@ void llenar_tabla(struct Nodo *, char *, int, FILE *);
 */
 void agregar_simbolo_tabla(int, char *, int, FILE *);
 
-/*
-*
-*/
+ssize_t obtener_tam_archivo(char *archivo);
 struct Nodo *crear_arbol(struct Nodo *);
 void escribir_bit(int, int);
 int comprimir_archivo(char *);
