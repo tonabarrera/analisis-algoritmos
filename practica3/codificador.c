@@ -31,7 +31,7 @@ int comprimir_archivo(char *nombre_archivo){
     close(archivo);
 
     printf("TOTAL DE BYTES LEIDOS: %ld\n", total);
-    
+
     // LLenamos nuestra lista
     struct Nodo *lista = NULL;
     for (int i = 0; i < 257; i++)
@@ -64,17 +64,17 @@ void crear_comprimido(char *nombre_archivo) {
             for (int j = 0; j< strlen(VALORES[buffer[i]]); j++)
                 escribir_bit(f_comprimido, VALORES[buffer[i]][j]-'0');
     }
-    /* 
+    /*
     * Metemos la secuencia de bits que terminan el archivo
     * al buffer antes de escribirlo en el archivo
     */
     for (int j = 0; j< strlen(VALORES[256]); j++)
         escribir_bit(f_comprimido, VALORES[256][j]-'0');
-    
+
     // Metemos los bits que no llenaron un buffer
     if (bits_buffer < TAM_MAX_BLOQUE << 3)
         write(f_comprimido, buffer_salida, (bits_buffer / 8)+1);
-    
+
     close(f_comprimido);
     close(archivo);
     printf("%s\n", "Se creo el archivo comprimido");
@@ -96,8 +96,8 @@ void llenar_tabla(struct Nodo *arbol, char *camino, int longitud, FILE *f) {
     if(arbol->izq== NULL && arbol->der == NULL) {
         return;
     }
-    char camino_izq[200];
-    char camino_der[200];
+    char camino_izq[2000];
+    char camino_der[2000];
     memset(camino_izq, '\0', sizeof(camino_izq));
     memset(camino_der, '\0', sizeof(camino_der));
     strcpy(camino_izq, camino);
@@ -108,7 +108,7 @@ void llenar_tabla(struct Nodo *arbol, char *camino, int longitud, FILE *f) {
     llenar_tabla(arbol->izq, camino_izq, longitud, f);
     if (arbol->izq->izq == NULL && arbol->izq->der == NULL)
         agregar_simbolo_tabla(arbol->izq->numero, camino_izq, longitud, f);
-    
+
     llenar_tabla(arbol->der, camino_der, longitud, f);
     if (arbol->der->izq == NULL && arbol->der->der == NULL)
         agregar_simbolo_tabla(arbol->der->numero, camino_der, longitud, f);
@@ -141,7 +141,7 @@ struct Nodo *insertar_nodo_lista(struct Nodo *inicio, unsigned long long frecuen
         prev = aux;
         aux = aux->siguiente;
     }
-    
+
     temp->siguiente = aux;
     prev->siguiente = temp;
     return inicio;
@@ -161,7 +161,7 @@ void escribir_bit(int f, int bit) {
         buffer_salida[bits_buffer >> 3] |= (0x1 << (7 - bits_buffer % 8));
     }
     bits_buffer++;
-    /* 
+    /*
     * Si ya llenamos el buffer lo escribimos, corrimiento a la izq
     * para comparar bits y no bytes, limpiamos el buffer y
     * reiniciamos el contador de bits
