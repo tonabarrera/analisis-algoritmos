@@ -40,6 +40,7 @@ int comprimir_archivo(char *nombre_archivo){
 
     lista = crear_arbol(lista);
     construir_tabla(lista);
+    //printf("%s\n", "Termino de construir_tabla");
     crear_comprimido(nombre_archivo);
     return 0;
 }
