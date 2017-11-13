@@ -45,6 +45,7 @@ int comprimir_archivo(char *nombre_archivo){
             lista = insertar_nodo_lista(lista, frecuencias[i], i);
 
     lista = crear_arbol(lista);
+    printf("%s\n", "LLEGUE HASTA AQUI");
     construir_tabla(lista, nombre_archivo);
     //printf("%s\n", "Termino de construir_tabla");
     crear_comprimido(nombre_archivo);
