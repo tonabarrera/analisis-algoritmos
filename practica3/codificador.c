@@ -43,11 +43,12 @@ int comprimir_archivo(char *nombre_archivo){
     for (int i = 0; i < 257; i++)
         if(frecuencias[i] != 0)
             lista = insertar_nodo_lista(lista, frecuencias[i], i);
+    //mostrar_lista(lista);
 
     lista = crear_arbol(lista);
-    printf("%s\n", "LLEGUE HASTA AQUI");
+    printf("%s\n", "Creando tabla");
     construir_tabla(lista, nombre_archivo);
-    //printf("%s\n", "Termino de construir_tabla");
+    printf("%s\n", "Termino de construir_tabla");
     crear_comprimido(nombre_archivo);
     return 0;
 }
@@ -56,7 +57,7 @@ void construir_tabla(struct Nodo *lista, char *archivo) {
     char camino[2000];
     FILE *f;
     f = fopen("tabla_codificacion.txt", "w");
-    fprintf(f, "%s %lld\n", archivo, obtener_tam_archivo(archivo));
+    fprintf(f, "%s %ld\n", archivo, obtener_tam_archivo(archivo));
     memset(camino, '\0', sizeof(camino));
     llenar_tabla(lista, camino, 0, f);
     fclose(f);
