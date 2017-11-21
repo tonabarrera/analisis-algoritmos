@@ -4,7 +4,7 @@
 
 int main(int argc, char * argv[]){
     if (argc != 3){
-        printf("%s\n", "Uso: ./compresor nombre_archivo opcion (1: comprimir, 2: descomprimir)");
+        printf("%s\n", "Uso: ./prueba_huffman.out nombre_archivo opcion (1: comprimir, 2: descomprimir)");
         exit(1);
     }
 
