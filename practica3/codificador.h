@@ -64,8 +64,23 @@ void llenar_tabla(struct Nodo *, char *, int, FILE *);
 void agregar_simbolo_tabla(int, char *, int, FILE *);
 
 ssize_t obtener_tam_archivo(char *archivo);
+/*
+* Crea el arbol que utiliza el algoritmo Huffman con la lista
+* que se le pasa como parametro, devuelve la raiz del arbol
+*/
 struct Nodo *crear_arbol(struct Nodo *);
+/*Escribe un bit en nuestro buffer de escritura, esto se
+* realiza mediante una mascara de bits para poder modificar
+* la el valor del bit con base  la posicion de este*/
 void escribir_bit(int, int);
+/*
+* Funcion principal que recibe el nombre del archivo
+* y realiza su compresion utilizando el algoritmo Huffman
+*/
 int comprimir_archivo(char *);
+/*
+* Escribe el archivo comprimido recibiendo como parametro 
+* el nombre del archivo a comprimir
+*/
 void crear_comprimido(char *);
 #endif
