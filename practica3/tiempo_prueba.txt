@@ -1,0 +1,14 @@
+COMPRIMIENDO EL ARCHIVO: prueba.txt
+
+real (Tiempo total)  0.0022280216 s
+user (Tiempo de procesamiento en CPU) 0.0020080000 s
+sys (Tiempo en acciónes de E/S)  0.0000000000 s
+CPU/Wall   90.1247986303 % 
+
+DESCOMPRIMIENDO EL ARCHIVO: comprimido
+
+real (Tiempo total)  0.0125579834 s
+user (Tiempo de procesamiento en CPU) 0.0002130000 s
+sys (Tiempo en acciónes de E/S)  0.0123110000 s
+CPU/Wall   99.7293880923 % 
+

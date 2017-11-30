@@ -16,7 +16,6 @@ int decodificar_archivo(char * nombre_archivo){
     strcat(nombre_original, ".");
     strcat(nombre_original, info -> extension);
 
-    printf("EL NOMBRE FUE: %s\n", nombre_original);
 
     construir_archivo(arbol, nombre_archivo, nombre_original);
 

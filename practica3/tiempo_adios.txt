@@ -1,0 +1,14 @@
+COMPRIMIENDO EL ARCHIVO: adios.jpg
+
+real (Tiempo total)  0.0644199848 s
+user (Tiempo de procesamiento en CPU) 0.0186320000 s
+sys (Tiempo en acciónes de E/S)  0.0000820000 s
+CPU/Wall   29.0499913234 % 
+
+DESCOMPRIMIENDO EL ARCHIVO: comprimido
+
+real (Tiempo total)  0.1553800106 s
+user (Tiempo de procesamiento en CPU) 0.0277580000 s
+sys (Tiempo en acciónes de E/S)  0.1220000000 s
+CPU/Wall   96.3817671379 % 
+

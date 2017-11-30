@@ -1,0 +1,14 @@
+COMPRIMIENDO EL ARCHIVO: archivo.pdf
+
+real (Tiempo total)  0.1747381687 s
+user (Tiempo de procesamiento en CPU) 0.1657790000 s
+sys (Tiempo en acciónes de E/S)  0.0045860000 s
+CPU/Wall   97.4973019641 % 
+
+DESCOMPRIMIENDO EL ARCHIVO: comprimido
+
+real (Tiempo total)  0.8643288612 s
+user (Tiempo de procesamiento en CPU) 0.1160290000 s
+sys (Tiempo en acciónes de E/S)  0.7465820000 s
+CPU/Wall   99.8012491178 % 
+

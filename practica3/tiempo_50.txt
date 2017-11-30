@@ -1,0 +1,14 @@
+COMPRIMIENDO EL ARCHIVO: 50.mp4
+
+real (Tiempo total)  10.7655050755 s
+user (Tiempo de procesamiento en CPU) 10.0458300000 s
+sys (Tiempo en acciónes de E/S)  0.7033240000 s
+CPU/Wall   99.8481160397 % 
+
+DESCOMPRIMIENDO EL ARCHIVO: comprimido
+
+real (Tiempo total)  100.3086550236 s
+user (Tiempo de procesamiento en CPU) 14.1252840000 s
+sys (Tiempo en acciónes de E/S)  85.4747890000 s
+CPU/Wall   99.2935983207 % 
+

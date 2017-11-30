@@ -1,0 +1,14 @@
+COMPRIMIENDO EL ARCHIVO: apunte.txt
+
+real (Tiempo total)  0.0015099049 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0014360000 s
+CPU/Wall   95.1053299226 % 
+
+DESCOMPRIMIENDO EL ARCHIVO: comprimido
+
+real (Tiempo total)  0.0094749928 s
+user (Tiempo de procesamiento en CPU) 0.0000000000 s
+sys (Tiempo en acciónes de E/S)  0.0090940000 s
+CPU/Wall   95.9789652399 % 
+

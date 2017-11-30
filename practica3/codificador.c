@@ -36,7 +36,6 @@ int comprimir_archivo(char *nombre_archivo){
     }
     close(archivo);
 
-    printf("TOTAL DE BYTES LEIDOS: %ld\n", total);
 
     // LLenamos nuestra lista
     struct Nodo *lista = NULL;
@@ -46,9 +45,7 @@ int comprimir_archivo(char *nombre_archivo){
     //mostrar_lista(lista);
 
     lista = crear_arbol(lista);
-    printf("%s\n", "Creando tabla");
     construir_tabla(lista, nombre_archivo);
-    printf("%s\n", "Termino de construir_tabla");
     crear_comprimido(nombre_archivo);
     return 0;
 }
@@ -87,7 +84,6 @@ void crear_comprimido(char *nombre_archivo) {
 
     close(f_comprimido);
     close(archivo);
-    printf("%s\n", "Se creo el archivo comprimido");
 }
 
 void mostrar_lista(struct Nodo *lista) {

@@ -1,0 +1,14 @@
+COMPRIMIENDO EL ARCHIVO: Compiladores.pdf
+
+real (Tiempo total)  1.4912760258 s
+user (Tiempo de procesamiento en CPU) 1.3466170000 s
+sys (Tiempo en acciónes de E/S)  0.1401190000 s
+CPU/Wall   99.6955610032 % 
+
+DESCOMPRIMIENDO EL ARCHIVO: comprimido
+
+real (Tiempo total)  11.0158841610 s
+user (Tiempo de procesamiento en CPU) 1.4601700000 s
+sys (Tiempo en acciónes de E/S)  9.5547310000 s
+CPU/Wall   99.9910750605 % 
+

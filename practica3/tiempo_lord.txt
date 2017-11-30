@@ -1,0 +1,14 @@
+COMPRIMIENDO EL ARCHIVO: lord.jpg
+
+real (Tiempo total)  0.0367779732 s
+user (Tiempo de procesamiento en CPU) 0.0287620000 s
+sys (Tiempo en acciónes de E/S)  0.0069820000 s
+CPU/Wall   97.1886075121 % 
+
+DESCOMPRIMIENDO EL ARCHIVO: comprimido
+
+real (Tiempo total)  0.1730871201 s
+user (Tiempo de procesamiento en CPU) 0.0098830000 s
+sys (Tiempo en acciónes de E/S)  0.1621750000 s
+CPU/Wall   99.4054323304 % 
+
