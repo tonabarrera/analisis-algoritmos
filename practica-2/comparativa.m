@@ -1,0 +1,54 @@
+n = [100 1000 5000 10000 50000 100000 200000 400000 600000 800000 1000000];
+% Asi concatenamos más valores
+n = [n 2000000 3000000 4000000 5000000 6000000 7000000 8000000 9000000 10000000];
+
+promedios = [0.0000004411 0.0000005007 0.0000005960 0.0000004888 0.0000008464];
+promedios = [promedios 0.0000007272 0.0000010014 0.0000012636 0.0000012398];
+promedios = [promedios 0.0000012755 0.0000013947 0.0000015974 0.0000019550];
+promedios = [promedios 0.0000020862 0.0000023365 0.0000023007 0.0000025272 0.0000022411];
+promedios = [promedios 0.0000025988 0.0000025511];
+
+y=[0.000020459645 0.000020004990 0.000034475340 0.000037837045 0.000031936185 0.000023806105 0.000025856505 0.000027716170 0.000027501590 0.000028812895 0.000033029130 0.000027453905 0.000031936165 0.000028145330 0.000030052665 0.000033521670 0.000029611590 0.000030541420 0.000027894985 0.000029647360];
+
+lineal = [0.000001049060 0.000005912805 0.000026500200 0.000052332860 0.000240647795];
+lineal = [lineal 0.000455284125 0.000880062575 0.001743805410 0.002610135080];
+lineal = [lineal 0.0034727334955 0.004344248765 0.008610463135 0.012944626805];
+lineal = [lineal 0.017202758795 0.021516227715 0.026046550265 0.029794847970 0.033484733120];
+lineal = [lineal 0.037549078465 0.040485548980];
+
+% figure;
+% plot(n, lineal, 'LineWidth', 2);
+% hold;
+% plot(n, y, '--', 'LineWidth', 2);
+% plot(n, promedios, 'LineWidth', 2);
+% grid;
+% xlabel('n');
+% ylabel('Tiempo (s)');
+% legend('Busqueda lineal', 'Busqueda binaria', 'Arbol binario de busqueda');
+% title('Comparativa');
+
+n1=1;
+p1=polyfit(n, lineal, n1);
+x1=linspace(100, 10000000, 100);
+z1=polyval(p1, x1);
+
+n2=2;
+p2=polyfit(n, y, n2);
+x2=linspace(100, 10000000, 100);
+z2=polyval(p2, x2);
+
+n3=2;
+p3=polyfit(n, promedios, n3);
+x3=linspace(100, 10000000, 100);
+z3=polyval(p3, x3);
+
+figure;
+plot(xi, z1, 'LineWidth', 2);
+hold;
+plot(x2, z2, '--', 'LineWidth', 2);
+plot(x3, z3, 'LineWidth', 2);
+grid;
+xlabel('n');
+ylabel('f(n)');
+legend('Busqueda lineal', 'Busqueda binaria', 'Arbol binario de busqueda');
+title('Comparativa polinomial');
